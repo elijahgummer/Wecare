@@ -21,12 +21,15 @@
     gap: 2.5rem;
   }
   .navbar ul a {
-    color: #676767;
+    color: #7d7d7d;
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
     transition: all 0.23s;
     margin: -5px;
+  }
+  .navbar ul a:hover {
+    color: #000000;
   }
   .navbar ul li {
     display: flex;
