@@ -23,4 +23,7 @@
     font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#hero 
+#hero p {
+    font-size: 25px;
+    font-family: 'Mulish' sans-serif;
+}
