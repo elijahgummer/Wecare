@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav class="navbar">
       <div className="icon phone-btn">
-        <i class="fa-solid fa-phone"></i>
+        <i className="fa-solid fa-phone"></i>
       </div>
       <div class="logo-container">
         <img class="logo" src={logo} alt="logo" />
