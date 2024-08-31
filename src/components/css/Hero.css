@@ -1,18 +1,22 @@
 #hero {
-    background-image: url('../images/hero.png'); /* Adjust path as needed */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  #hero .content {
-    color: white; /* Adjust text color to contrast with the background */
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background to improve text readability */
-    border-radius: 10px;
-  }
-  
+  background-image: url("../images/hero.png"); /* Adjust path as needed */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero .content {
+  color: white; /* Adjust text color to contrast with the background */
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Optional: Add a semi-transparent background to improve text readability */
+  border-radius: 10px;
+}
