@@ -1,14 +1,14 @@
 import React from "react";
 import "./css/Buttons.css"; // Importing the CSS file
 
-export function PrimButton() {
+export function PrimButton({ children }) {
     return (
-        <button className="primButton"></button>
+        <button className="primButton">{ children }</button>
     );
 }
 
-export function SecButton() {
+export function SecButton({ children }) {
     return (
-        <button className="secButton"></button>
+        <button className="secButton">{ children }</button>
     );
 }
