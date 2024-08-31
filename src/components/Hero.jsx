@@ -28,5 +28,5 @@ function Navbar() {
       </nav>
     );
   }
-  export default Hero;
+export default Hero;
   
