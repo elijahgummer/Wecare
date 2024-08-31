@@ -1,17 +1,15 @@
 import React from "react";
 import "./css/Hero.css"; // Importing the CSS file
-import HeroPic from "./images/hero.png"; // Adjust path as needed
+
 function Hero() {
   return (
     <div id="hero">
-    <div className="container">
-        <div className="content">
+      <div className="content">
         <h1>We Care About You</h1>
-        <p>Get the care you need, from professionals who are leaders in their fields. </p>
-        </div>
-        <img className="logo" width="100%" height="800px" src={HeroPic} alt="logo" />
-    </div>
+        <p>Get the care you need, from professionals who are leaders in their fields.</p>
+      </div>
     </div>
   );
 }
+
 export default Hero;
