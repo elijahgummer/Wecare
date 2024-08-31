@@ -16,6 +16,7 @@
   color: white; /* Adjust text color to contrast with the background */
   text-align: left;
   padding: 20px;
+  margin-left: 30px;
   width: 40%;
 }
 #hero h1 {
