@@ -8,7 +8,7 @@ function Navbar() {
         <i className="fa-solid fa-phone"></i>
       </div>
       <div className="logo-container">
-        <img class="logo" src={logo} alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
       </div>
       <ul id="sidemenu" class="menu-list">
         <div class="icon cancel-btn">
