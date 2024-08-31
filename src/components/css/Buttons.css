@@ -4,5 +4,6 @@
     color: #ffffff;
 }
 .secButton {
-
+ background-color: transparent;
+ border: 1px solid #ffffff;
 }
