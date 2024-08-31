@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/Hero.css"; // Importing the CSS file
-
 function Hero() {
   return (
     <div id="hero">
@@ -11,5 +10,4 @@ function Hero() {
     </div>
   );
 }
-
 export default Hero;
