@@ -5,12 +5,12 @@ function primButton() {
     return(
         <button className="primButton"></button>
     );
-};
+}
 function secButton() {
     return(
         <button className="secButton"></button>
     );
-};
+}
 
 export default primButton;
 export default secButton;
