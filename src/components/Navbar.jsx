@@ -4,7 +4,7 @@ import logo from './images/logo.png'; // Adjust path as needed
 function Navbar() {
   return (
     <nav class="navbar">
-      <div class="icon phone-btn">
+      <div className="icon phone-btn">
         <i class="fa-solid fa-phone"></i>
       </div>
       <div class="logo-container">
