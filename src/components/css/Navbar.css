@@ -25,7 +25,6 @@
     font-size: 18px;
     font-weight: 700;
     transition: all 0.23s;
-    margin: -5px;
   }
   .navbar ul a:hover {
     color: #000000;
