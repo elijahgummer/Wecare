@@ -1,5 +1,8 @@
-.primButton {
+.primButton,
+.secButton {
     padding: 10px 40px;
+}
+.primButton {
     background-color: #5599F8;
     color: #ffffff;
     border: 1px solid #5599F8;
