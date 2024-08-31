@@ -12,6 +12,7 @@
     left: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
     align-items: center;
+    text-align: center;
     z-index: 5;
   }
   .navbar ul {
@@ -74,6 +75,11 @@
     position: absolute;
     right: 30px;
     top: 20px;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .logo {
     color: #ffffff;
