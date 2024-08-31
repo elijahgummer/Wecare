@@ -1,7 +1,7 @@
 #hero {
   background-image: url("../images/hero.png"); /* Adjust path as needed */
   background-size: cover;
-  background-position: center;
+  background-position: center 20%; /* Adjust the vertical position */
   background-repeat: no-repeat;
   height: 100vh; /* Full viewport height */
   display: flex;
