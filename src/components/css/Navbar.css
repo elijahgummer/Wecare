@@ -11,8 +11,8 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-  background-color: #ffffff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+
+  
   align-items: center;
   text-align: center;
   z-index: 5;
