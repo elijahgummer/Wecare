@@ -1,7 +1,7 @@
 import React from "react";
 import './css/Hero.css'; // Importing the CSS file
 import Hero from './images/Hero.png'; // Adjust path as needed
-function Navbar() {
+function Hero() {
     return (
       <nav class="navbar">
         <div class="icon phone-btn">
