@@ -82,6 +82,7 @@
     font-weight: 800;
     margin-left: 70px;
     width: 170px;
+    height: 60px;
   }
   @media (max-width: 868px) {
     body.disabled {
