@@ -8,8 +8,8 @@ function Hero() {
       <div className="content">
         <h1>We Care About You.</h1>
         <p>Get the care you need, from professionals who are leaders in their fields.</p>
-        <PrimButton>MAKE AN APPOINTMENT</PrimButton>
         <SecButton>LEARN MORE</SecButton>
+        <PrimButton>MAKE AN APPOINTMENT</PrimButton>
       </div>
     </div>
   );
