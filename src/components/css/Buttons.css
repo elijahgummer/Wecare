@@ -20,4 +20,5 @@
 }
 .primButton:hover {
     background-color: #ffffff;
+    border: 1px solid #5599F8;
 }
