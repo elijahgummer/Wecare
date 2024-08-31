@@ -11,7 +11,7 @@
 #hero .content {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   flex-direction: column;
   color: white; /* Adjust text color to contrast with the background */
   text-align: center;
