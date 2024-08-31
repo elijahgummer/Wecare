@@ -12,11 +12,4 @@
   color: white; /* Adjust text color to contrast with the background */
   text-align: center;
   padding: 20px;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Optional: Add a semi-transparent background to improve text readability */
-  border-radius: 10px;
 }
