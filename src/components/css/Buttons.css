@@ -13,19 +13,19 @@
 }
 .primButton {
     background-color: #5599F8;
-    border: 1px solid #5599F8;
+    border: 2px solid #5599F8;
 }
 .secButton {
  background-color: transparent;
- border: 1px solid #ffffff;
+ border: 2px solid #ffffff;
 }
 .primButton:hover {
     background-color: #ffffff;
-    border: 1px solid #5599F8;
-    color: #000000;
+    border: 2px solid #5599F8;
+    color: #5599F8;
 }
-.primButton:hover {
+.secButton:hover {
     background-color: #ffffff;
-    border: 1px solid #5599F8;
+    border: 2px solid #5599F8;
     color: #5599F8;
 }
