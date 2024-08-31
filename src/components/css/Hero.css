@@ -6,12 +6,17 @@
   height: 100vh; /* Full viewport height */
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 #hero .content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
   color: white; /* Adjust text color to contrast with the background */
   text-align: center;
   padding: 20px;
+  width: 50%;
 }
 #hero h1 {
     font-size: 60px;
