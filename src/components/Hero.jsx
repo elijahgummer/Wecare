@@ -3,7 +3,7 @@ import "./css/Hero.css"; // Importing the CSS file
 import HeroPic from "./images/hero.png"; // Adjust path as needed
 function Hero() {
   return (
-    <div class="logo-container">
+    <div class="container">
       <img class="logo" src={HeroPic} alt="logo" />
     </div>
   );
