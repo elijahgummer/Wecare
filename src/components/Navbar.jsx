@@ -1,5 +1,6 @@
 import React from "react";
 import './css/Navbar.css'; // Importing the CSS file
+import logo from './images/example.jpg'; // Adjust path as needed
 
 function Navbar() {
   return (
@@ -8,7 +9,7 @@ function Navbar() {
         <i class="fa-solid fa-phone"></i>
       </div>
       <div class="logo-container">
-        <img class="logo" src="./images/logo.png" alt="logo" />
+        <img class="logo" src={logo} alt="logo" />
       </div>
       <ul id="sidemenu" class="menu-list">
         <div class="icon cancel-btn">
