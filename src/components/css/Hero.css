@@ -1,13 +1,13 @@
 #hero {
-  background-image: url("../images/hero.png"); /* Adjust path as needed */
-  background-size: cover;
-  background-position: center 50%; /* Adjust the vertical position */
-  background-repeat: no-repeat;
-  height: 100vh; /* Full viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
+    background-image: url("../images/hero.png"); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center 50px; /* Moves the background image down by 50 pixels */
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 #hero .content {
   display: flex;
   align-items: center;
