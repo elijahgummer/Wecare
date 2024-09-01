@@ -3,10 +3,10 @@ import './css/CTA.css'
 
 function CTA() {
     return(
-        <div id="CTA">
+        <div id="cta">
             <div className="container">
                 <div className="image-container">
-                    
+
                 </div>
                 <div className="content">
                     <h1>Public Pharmacy</h1>
