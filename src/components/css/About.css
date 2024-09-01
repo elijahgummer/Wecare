@@ -20,6 +20,9 @@
     height: 500px;
 }
 #about .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40%;
 }
 #about h1 {
