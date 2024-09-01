@@ -58,7 +58,6 @@
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
-
 #services .image-box:hover .content-box {
   opacity: 1;
 }
