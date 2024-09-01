@@ -12,8 +12,8 @@ export function SecButton({ children }) {
         <button className="secButton">{ children }</button>
     );
 }
-export function SecButton({ children }) {
+export function ThirdButton({ children }) {
     return (
-        <button className="secButton">{ children }</button>
+        <button className="ThirdButton">{ children }</button>
     );
 }
