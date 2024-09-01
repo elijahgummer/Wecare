@@ -9,7 +9,7 @@ function CTA() {
 
                 </div>
                 <div className="content">
-                    
+                    <h1>Public Pharmacy</h1>
                 </div>
             </div>
         </div>
