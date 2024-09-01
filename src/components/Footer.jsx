@@ -15,14 +15,14 @@ function Footer() {
               </div>
             </div>
             <div class="info-box">
-              <i class="fa-solid fa-location-dot"></i>
-              <h3>AREA OF SERVICE</h3>
-              <p>City, State and Zip</p>
-            </div>
-            <div class="info-box">
               <i class="fa-solid fa-phone"></i>
               <h3>PHONE</h3>
               <p>1-234-567-890</p>
+            </div>
+            <div class="info-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <h3>AREA OF SERVICE</h3>
+              <p>City, State and Zip</p>
             </div>
             <div class="info-box">
               <i class="fa-regular fa-envelope"></i>
