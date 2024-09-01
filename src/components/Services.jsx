@@ -2,6 +2,7 @@ import React from "react";
 import './css/Services.css';
 import obstetrics from './images/obstetrics.png'
 import pediatrics from './images/pediatrics.png'
+import seniorcare from './images/seniorcare.png'
 
 function Services() {
     return(
