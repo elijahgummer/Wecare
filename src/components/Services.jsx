@@ -1,6 +1,7 @@
 import React from "react";
 import './css/Services.css';
 import obstetrics from './images/obstetrics.png'
+import pediatrics from './images/pediatrics.png'
 
 function Services() {
     return(
@@ -10,6 +11,9 @@ function Services() {
                 <div className="images-container">
                     <div className="image-box">
                     <img src={obstetrics} alt="obstetrics" />
+                    </div>
+                    <div className="image-box">
+                    <img src={pediatrics} alt="pediatrics" />
                     </div>
                 </div>
             </div>
