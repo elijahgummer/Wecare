@@ -45,11 +45,6 @@ footer {
     justify-content: center;
     margin: 20px;
   }
-  footer .social-icons i {
-    font-size: 18px;
-    color: #ffffff;
-    margin: 10px;
-  }
   footer .info-box {
     display: flex;
     align-items: center;
@@ -58,7 +53,7 @@ footer {
   }
   footer .info-box i {
     font-size: 24px;
-    color: #FF6600;
+    color: #ffffff;
     margin: 10px;
   }
   footer .info-box h3 {
