@@ -21,9 +21,11 @@
 }
 #about .content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    text-align: left;
     width: 40%;
+    flex-direction: column;
 }
 #about h1 {
     color: #414141;
