@@ -1,5 +1,24 @@
 #about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #F6F6F6;
     width: 100%;
     height: auto;
+}
+#about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+#about .image-container {
+    width: 60%;
+}
+#about .aboutImage {
+    width: 520px;
+    height: 500px;
+}
+#about .content {
+    width: 40%;
 }
