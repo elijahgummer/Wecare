@@ -12,6 +12,11 @@
     justify-content: flex-start;
     flex-direction: column;
 }
+#cta h1 {
+    font-size: 30px;
+    color: #444444;
+    font-weight: 700;
+}
 #cta p {
     margin: 20px 0px;
     width: 50%;
