@@ -15,7 +15,7 @@ function Services() {
           </div>
           <div className="content-box">
             <h1>OBSTETRICS</h1>
-            <p></p>
+            <p>Access a complete line of medical services to maintain your health throughout pregnancy, including evaluation, diagnosis and treatment.</p>
           </div>
           <div className="image-box">
             <img src={pediatrics} alt="pediatrics" />
