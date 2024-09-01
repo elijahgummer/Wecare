@@ -7,7 +7,6 @@ import aboutImage from './images/aboutImage.png'; // Adjust path as needed
 function About() {
   return (
     <div id="about">
-      <div className="container">
         <div className="image-container">
           <img className="logo" src={aboutImage} alt="logo" />
         </div>
@@ -23,7 +22,6 @@ function About() {
           <ThirdButton>LEARN MORE</ThirdButton>
         </div>
       </div>
-    </div>
   );
 }
 
