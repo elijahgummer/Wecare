@@ -3,7 +3,6 @@ import "./css/Services.css";
 import obstetrics from "./images/obstetrics.png";
 import pediatrics from "./images/pediatrics.png";
 import seniorcare from "./images/seniorcare.png";
-
 function Services() {
   return (
     <div id="services">
@@ -35,7 +34,6 @@ function Services() {
           </div>
           <div className="image-box">
             <img src={seniorcare} alt="seniorcare" />
-
             <div className="content-box">
               <h2>SENIOR CARE</h2>
               <p>
