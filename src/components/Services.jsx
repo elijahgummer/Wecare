@@ -21,7 +21,7 @@ function Services() {
             <img src={pediatrics} alt="pediatrics" />
             <div className="content-box">
               <h1>PEDIATRICS</h1>
-              <p></p>
+              <p>With four in-house pediatric doctors, each one a specialist in the field, we ensure that every child at the clinic gets the care they require.</p>
             </div>
           </div>
           <div className="image-box">
