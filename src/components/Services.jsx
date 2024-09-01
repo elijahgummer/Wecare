@@ -28,7 +28,7 @@ function Services() {
             <img src={seniorcare} alt="seniorcare" />
           </div>
           <div className="content-box">
-            <h1></h1>
+            <h1>SENIOR CARE</h1>
             <p></p>
           </div>
         </div>
