@@ -12,3 +12,8 @@ export function SecButton({ children }) {
         <button className="secButton">{ children }</button>
     );
 }
+export function SecButton({ children }) {
+    return (
+        <button className="secButton">{ children }</button>
+    );
+}

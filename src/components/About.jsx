@@ -1,6 +1,6 @@
 import React from "react";
 import './css/About.css'; // Importing the CSS file
-import { PrimButton } from "./Buttons";
+import { SecButton } from "./Buttons";
 
 function About() {
     return(
