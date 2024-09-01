@@ -29,7 +29,7 @@ function Services() {
           </div>
           <div className="content-box">
             <h1>SENIOR CARE</h1>
-            <p></p>
+            <p>We offer comprehensive primary care and consultations to support patients and families cope with the challenging conditions related to aging.</p>
           </div>
         </div>
       </div>
