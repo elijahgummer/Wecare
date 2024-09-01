@@ -13,11 +13,23 @@ function Services() {
           <div className="image-box">
             <img src={obstetrics} alt="obstetrics" />
           </div>
+          <div className="content-box">
+            <h1></h1>
+            <p></p>
+          </div>
           <div className="image-box">
             <img src={pediatrics} alt="pediatrics" />
+            <div className="content-box">
+              <h1></h1>
+              <p></p>
+            </div>
           </div>
           <div className="image-box">
             <img src={seniorcare} alt="seniorcare" />
+          </div>
+          <div className="content-box">
+            <h1></h1>
+            <p></p>
           </div>
         </div>
       </div>

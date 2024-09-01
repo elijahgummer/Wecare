@@ -35,3 +35,6 @@
 #services .image-box:hover.image-box::before {
     opacity: 1;
 }
+#services .content-box {
+    position: absolute;
+}
