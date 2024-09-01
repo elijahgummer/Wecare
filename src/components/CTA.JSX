@@ -16,5 +16,4 @@ function CTA() {
         </div>
     );
 }
-
 export default CTA;
