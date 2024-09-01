@@ -6,14 +6,6 @@ function Footer() {
       <footer>
         <div class="container">
           <div class="content">
-            <div class="logo-container">
-              <div class="social-icons">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-google-plus-g"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
-              </div>
-            </div>
             <div class="info-box">
               <i class="fa-solid fa-phone"></i>
               <h3>PHONE</h3>
