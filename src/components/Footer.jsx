@@ -7,7 +7,6 @@ function Footer() {
         <div class="container">
           <div class="content">
             <div class="logo-container">
-              <img src="images/logo.png" alt="logo" />
               <div class="social-icons">
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-google-plus-g"></i>
@@ -15,7 +14,6 @@ function Footer() {
                 <i class="fa-brands fa-instagram"></i>
               </div>
             </div>
-            <button>CALL NOW</button>
             <div class="info-box">
               <i class="fa-solid fa-location-dot"></i>
               <h3>AREA OF SERVICE</h3>
