@@ -4,6 +4,9 @@
     justify-content: center;
     flex-direction: column;
 }
+#services h1 {
+    color: #212226;
+}
 #services .images-container {
     display: flex;
     align-items: center;
