@@ -1,7 +1,6 @@
 import React from "react";
 import './css/CTA.css'
 import pills from './images/pills.png'
-
 function CTA() {
     return(
         <div id="cta">
