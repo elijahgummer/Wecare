@@ -10,6 +10,7 @@ function CTA() {
                 </div>
                 <div className="content">
                     <h1>Public Pharmacy</h1>
+                    <p>Managing your medications at We Care Medical Clinic is simple, from start to finish.                     </p>
                 </div>
             </div>
         </div>
