@@ -1,6 +1,6 @@
 import React from "react";
 import './css/Services.css';
-import obstetrics from './imgages/obstetrics.png'
+import obstetrics from './images/obstetrics.png'
 
 function Services() {
     return(
