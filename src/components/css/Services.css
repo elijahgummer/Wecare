@@ -35,6 +35,17 @@
 #services .image-box:hover.image-box::before {
     opacity: 1;
 }
-#services .content-box {
+#services .content-box h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+}
+#services .content-box p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     position: absolute;
 }
