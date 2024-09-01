@@ -21,8 +21,8 @@ function Footer() {
             </div>
             <div class="info-box">
               <i class="fa-solid fa-location-dot"></i>
-              <h3>AREA OF SERVICE</h3>
-              <p>City, State and Zip</p>
+              <h3>ADDRESS</h3>
+              <p>We Care | Medical Clinic</p>
             </div>
             <div class="info-box">
               <i class="fa-regular fa-envelope"></i>
