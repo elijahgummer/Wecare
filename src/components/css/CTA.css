@@ -8,10 +8,11 @@
 }
 #cta .content {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
     flex-direction: column;
 }
 #cta p {
+    margin: 20px 0px;
     width: 50%;
 }
