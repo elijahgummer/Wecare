@@ -9,7 +9,8 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    width: 74%;
+    margin: 30px;
+    width: 80%;
 }
 #services .image-box img {
     width: 300px;
