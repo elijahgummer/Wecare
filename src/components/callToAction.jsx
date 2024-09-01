@@ -2,7 +2,7 @@ import React from "react";
 import './css/CTA.css'
 import pills from './images/pills.png'
 import { PrimButton } from "./Buttons";
-function CTA() {
+function CallToAction() {
     return(
         <div id="cta">
             <div className="container">
@@ -18,4 +18,4 @@ function CTA() {
         </div>
     );
 }
-export default CTA;
+export default CallToAction;

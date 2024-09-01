@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
-import CTA from './components/CTA';
+import CallToAction from './components/callToAction';
 function App() {
   return (
     <div className="App">
@@ -11,7 +11,7 @@ function App() {
       <Hero />
       <About /> 
       <Services />
-      <CTA />
+      <CallToAction />
     </div>
   );
 }
