@@ -1,7 +1,7 @@
 import React from "react";
 import "./css/About.css"; // Importing the CSS file
 import { ThirdButton } from "./Buttons";
-import aboutImage from './images/'; // Adjust path as needed
+import aboutImage from './images/aboutImage.png'; // Adjust path as needed
 
 
 function About() {
