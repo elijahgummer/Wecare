@@ -3,7 +3,9 @@ import './css/CTA.css'
 
 function CTA() {
     return(
-        
+        <div id="CTA">
+            
+        </div>
     );
 }
 
