@@ -68,3 +68,7 @@ footer {
     font-weight: 500;
     margin: 5px;
   }
+.secButton {
+    opacity: 1;
+    z-index: 10;
+}

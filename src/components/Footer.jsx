@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Footer.css";
-import { SecButton } from "./Buttons";
+import { PrimButton, SecButton } from "./Buttons";
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
           <div class="info-box">
             <i class="fa-regular fa-comments"></i>
             <h3>CONTACT</h3>
-            <SecButton>MAKE AN APPOINTMENT</SecButton>
+            <SecButton>MAKE AN APPOINTMENT</SecButton> 
             <p>1-234-567-890</p>
           </div>
           <div class="info-box">
