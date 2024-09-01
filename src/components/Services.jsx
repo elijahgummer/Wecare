@@ -14,7 +14,7 @@ function Services() {
             <img src={obstetrics} alt="obstetrics" />
 
             <div className="content-box">
-              <h1>OBSTETRICS</h1>
+              <h2>OBSTETRICS</h2>
               <p>
                 Access a complete line of medical services to maintain your
                 health throughout pregnancy, including evaluation, diagnosis and
@@ -25,7 +25,7 @@ function Services() {
           <div className="image-box">
             <img src={pediatrics} alt="pediatrics" />
             <div className="content-box">
-              <h1>PEDIATRICS</h1>
+              <h2>PEDIATRICS</h2>
               <p>
                 With four in-house pediatric doctors, each one a specialist in
                 the field, we ensure that every child at the clinic gets the
@@ -37,7 +37,7 @@ function Services() {
             <img src={seniorcare} alt="seniorcare" />
 
             <div className="content-box">
-              <h1>SENIOR CARE</h1>
+              <h2>SENIOR CARE</h2>
               <p>
                 We offer comprehensive primary care and consultations to support
                 patients and families cope with the challenging conditions
