@@ -6,3 +6,9 @@
     background-size: 20px 20px; /* Adjust the size of the dots */
     padding: 20px; /* Adjust the padding to your preference */
 }
+#cta .content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
