@@ -17,7 +17,6 @@ function Navbar() {
         <li><a href="index.html">Home</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="articles.html">Articles</a></li>
         <li><a href="contact.html">Contact</a></li>
         <button>CALL NOW</button>
       </ul>
