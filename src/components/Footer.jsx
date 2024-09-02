@@ -30,7 +30,8 @@ function Footer() {
           <div class="info-box">
             <i class="fa-regular fa-envelope"></i>
             <h3>CLINIC HOURS</h3>
-            <p>Mon-Fri  8:00AM-9:00PM</p>
+            <p>Mon-Fri    8:00AM-9:00PM</p>
+            <p>Sat    8:00AM-6:00PM</p>
           </div>
         </div>
       </div>
