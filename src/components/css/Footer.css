@@ -45,6 +45,12 @@ footer {
     justify-content: center;
     margin: 20px;
   }
+  footer .social-icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
   footer .info-box {
     display: flex;
     align-items: center;
