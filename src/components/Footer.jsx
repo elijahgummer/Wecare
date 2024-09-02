@@ -29,7 +29,7 @@ function Footer() {
           </div>
           <div class="info-box">
             <i class="fa-regular fa-envelope"></i>
-            <h3>EMAIL</h3>
+            <h3>CLINIC HOURS</h3>
             <p>example@gmail.com</p>
           </div>
         </div>
