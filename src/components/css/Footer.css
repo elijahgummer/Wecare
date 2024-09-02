@@ -50,6 +50,8 @@ footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 20%;
+    height: auto;
   }
   footer .info-box i {
     font-size: 45px;
