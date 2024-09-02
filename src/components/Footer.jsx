@@ -7,8 +7,7 @@ function Footer() {
     <footer>
         <SecButton>MAKE AN APPOINTMENT</SecButton>
       <div class="container">
-        <div class="content">
-            
+        <div class="content"> 
           <div class="info-box">
             <i class="fa-regular fa-comments"></i>
             <h3>CONTACT</h3>
