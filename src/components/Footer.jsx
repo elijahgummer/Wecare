@@ -5,10 +5,9 @@ import { SecButton } from "./Buttons";
 function Footer() {
   return (
     <footer>
-        <SecButton>MAKE AN APPOINTMENT</SecButton>
       <div class="container">
         <div class="content"> 
-          <div class="info-box">
+          <div class="info-box one">
             <i class="fa-regular fa-comments"></i>
             <h3>CONTACT</h3>
             <SecButton>MAKE AN APPOINTMENT</SecButton>

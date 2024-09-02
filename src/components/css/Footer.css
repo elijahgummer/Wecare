@@ -8,22 +8,7 @@ footer .container {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-footer button {
-  display: none;
-  color: #ffffff;
-  background-color: #333333;
-  border: 1px solid#ffffff;
-  border-radius: 28px;
-  padding: 15px;
-  margin: 20px;
-  font-size: 18px;
-  width: 250px;
-  transition: all ease-in-out 0.5s;
-}
-footer button:hover {
-  color: #000;
-  background-color: #dedede;
+  margin-top: -50px;
 }
 footer .container .content {
   display: flex;
@@ -37,6 +22,9 @@ footer .logo-container {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+footer .info-box.one {
+    margin-top: 60px;
 }
 footer .social-icons {
   display: flex;
