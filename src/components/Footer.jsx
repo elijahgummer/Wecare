@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Footer.css";
-import { PrimButton, SecButton } from "./Buttons";
+import { SecButton } from "./Buttons";
 
 function Footer() {
   return (
