@@ -1,6 +1,7 @@
 /* Footer */
 footer {
   background-color: #5599f9;
+  z-index: -10;
   padding: 50px;
 }
 footer .container {
