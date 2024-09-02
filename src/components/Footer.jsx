@@ -12,6 +12,7 @@ function Footer() {
             <h3>CONTACT</h3>
             <SecButton>MAKE AN APPOINTMENT</SecButton> 
             <p>+555-555-1234</p>
+            <p>+555-555-1234</p>
           </div>
           <div class="info-box">
             <i class="fa-solid fa-location-dot"></i>
