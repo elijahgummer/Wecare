@@ -1,12 +1,11 @@
 import React from "react";
 import "./css/Footer.css";
 import { SecButton } from "./Buttons";
-
 function Footer() {
   return (
     <footer>
       <div class="container">
-        <div class="content"> 
+        <div class="content">
           <div class="info-box one">
             <i class="fa-regular fa-comments"></i>
             <h3>CONTACT</h3>
@@ -20,7 +19,7 @@ function Footer() {
             <p>We Care | Medical Clinic</p>
             <div class="logo-container">
               <div class="social-icons">
-              <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-google-plus-g"></i>
                 <i class="fa-brands fa-x-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
@@ -30,14 +29,13 @@ function Footer() {
           <div class="info-box">
             <i class="fa-regular fa-envelope"></i>
             <h3>CLINIC HOURS</h3>
-            <p>Mon-Fri    8:00AM-9:00PM</p>
-            <p>Sat    8:00AM-6:00PM</p>
-            <p>Sun    CLOSED</p>
+            <p>Mon-Fri 8:00AM-9:00PM</p>
+            <p>Sat 8:00AM-6:00PM</p>
+            <p>Sun CLOSED</p>
           </div>
         </div>
       </div>
     </footer>
   );
 }
-
 export default Footer;
