@@ -6,7 +6,6 @@ export function PrimButton({ children }) {
         <button className="primButton">{ children }</button>
     );
 }
-
 export function SecButton({ children }) {
     return (
         <button className="secButton">{ children }</button>
