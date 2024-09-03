@@ -1,6 +1,5 @@
 import React from "react";
 import "./css/Buttons.css"; // Importing the CSS file
-
 export function PrimButton({ children }) {
     return (
         <button className="primButton">{ children }</button>
