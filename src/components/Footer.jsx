@@ -20,7 +20,6 @@ function Footer() {
             <p>We Care | Medical Clinic</p>
             <div class="logo-container">
               <div class="social-icons">
-                
                 <i class="fa-brands fa-google-plus-g"></i>
                 <i class="fa-brands fa-x-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
