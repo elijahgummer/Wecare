@@ -19,12 +19,16 @@ function HomePage() {
   );
 }
 
+function ServicesPage() {
+  return <div><h1>Our Services</h1></div>;
+}
+
 function AboutPage() {
-  return (
-    <div>
-      <About />
-    </div>
-  );
+  return <div><h1>About Us</h1></div>;
+}
+
+function ContactPage() {
+  return <div><h1>Contact Us</h1></div>;
 }
 
 function NotFoundPage() {
@@ -38,8 +42,12 @@ function App() {
     switch (currentPage) {
       case 'home':
         return <HomePage />;
+      case 'services':
+        return <ServicesPage />;
       case 'about':
         return <AboutPage />;
+      case 'contact':
+        return <ContactPage />;
       default:
         return <NotFoundPage />;
     }

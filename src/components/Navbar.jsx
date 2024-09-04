@@ -1,7 +1,9 @@
+// Navbar.js
 import React from "react";
 import './css/Navbar.css'; // Importing the CSS file
 import logo from './images/logo.png'; // Adjust path as needed
-function Navbar() {
+
+function Navbar({ setCurrentPage }) {
   return (
     <nav className="navbar">
       <div className="icon phone-btn">
@@ -14,10 +16,10 @@ function Navbar() {
         <div className="icon cancel-btn">
           <i className="fa-solid fa-xmark"></i>
         </div>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#home" onClick={() => setCurrentPage('home')}>Home</a></li>
+        <li><a href="#services" onClick={() => setCurrentPage('services')}>Services</a></li>
+        <li><a href="#about" onClick={() => setCurrentPage('about')}>About</a></li>
+        <li><a href="#contact" onClick={() => setCurrentPage('contact')}>Contact</a></li>
         <button>CALL NOW</button>
       </ul>
       <div className="icon menu-btn">
@@ -26,4 +28,5 @@ function Navbar() {
     </nav>
   );
 }
+
 export default Navbar;
