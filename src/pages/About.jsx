@@ -2,7 +2,7 @@
 import React from 'react';
 import Footer from './components/Footer'; // Adjust the import path as needed
 
-function ServicesPage() {
+function AboutPage() {
   return (
     <div className="services-page">
       <header className="services-header">
