@@ -1,9 +1,16 @@
-// Navbar.js
-import React from "react";
+import React, { useState } from "react";
 import './css/Navbar.css'; // Importing the CSS file
 import logo from './images/logo.png'; // Adjust path as needed
 
 function Navbar({ setCurrentPage }) {
+  // State to manage whether the menu is open
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  // Function to toggle menu visibility
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <nav className="navbar">
       <div className="icon phone-btn">
@@ -12,8 +19,9 @@ function Navbar({ setCurrentPage }) {
       <div className="logo-container">
         <img className="logo" src={logo} alt="logo" />
       </div>
-      <ul id="sidemenu" className="menu-list">
-        <div className="icon cancel-btn">
+      {/* Apply active class when menu is open */}
+      <ul id="sidemenu" className={`menu-list ${menuOpen ? 'active' : ''}`}>
+        <div className="icon cancel-btn" onClick={toggleMenu}>
           <i className="fa-solid fa-xmark"></i>
         </div>
         <li><a href="#home" onClick={() => setCurrentPage('home')}>Home</a></li>
@@ -22,7 +30,7 @@ function Navbar({ setCurrentPage }) {
         <li><a href="#contact" onClick={() => setCurrentPage('contact')}>Contact</a></li>
         <button>CALL NOW</button>
       </ul>
-      <div className="icon menu-btn">
+      <div className="icon menu-btn" onClick={toggleMenu}>
         <i className="fa-solid fa-bars"></i>
       </div>
     </nav>
