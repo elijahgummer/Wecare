@@ -151,3 +151,15 @@
     margin-left: 0px;
   }
 }
+
+/* Initially hide the menu */
+.menu-list {
+  display: none;
+  /* Other styling for your menu */
+}
+
+/* When menu is open, show it */
+.menu-list.active {
+  display: block;
+  /* Adjust this based on how you want the menu to appear */
+}
