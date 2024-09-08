@@ -1,11 +1,11 @@
 // ServicesPage.js
 import React from "react";
-import logo from "./images/logo.png"; // Adjust path as needed
+import servicesHeader from "./images/servicesPageHeader.png"; // Adjust path as needed
 function ServicesPage() {
   return (
     <div id="servicePage">
       <div className="hero-con">
-        <img className="logo" src={logo} alt="logo" />
+        <img className="logo" src={servicesHeader} alt="logo" />
       </div>
     </div>
   );
