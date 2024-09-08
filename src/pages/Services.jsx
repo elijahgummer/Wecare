@@ -1,6 +1,6 @@
 // ServicesPage.js
 import React from 'react';
-import Footer from './components/Footer'; // Adjust the import path as needed
+
 
 function ServicesPage() {
   return (
@@ -24,7 +24,7 @@ function ServicesPage() {
         </div>
         {/* Add more service items as needed */}
       </section>
-      <Footer />
+
     </div>
   );
 }

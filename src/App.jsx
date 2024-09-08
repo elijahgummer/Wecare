@@ -6,6 +6,7 @@ import Services from './components/Services';
 import CallToAction from './components/callToAction';
 import Footer from './components/Footer';
 import React, { useState } from 'react';
+import ServicesPage from './pages/Services'
 
 // Example Page Components
 function HomePage() {
@@ -19,9 +20,7 @@ function HomePage() {
   );
 }
 
-function ServicesPage() {
-  return <div><h1>Our Services</h1></div>;
-}
+
 
 function AboutPage() {
   return <div><h1>About Us</h1></div>;
