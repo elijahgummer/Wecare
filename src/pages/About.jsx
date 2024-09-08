@@ -7,9 +7,9 @@ function AboutPage() {
     <div className="services-page">
       <header className="services-header">
         <h1>Our Services</h1>
-        <p>We offer a variety of services to meet your needs.</p>
+        <p>We offer a variety of about to meet your needs.</p>
       </header>
-      <section className="services-list">
+      <section className="about-list">
         <div className="service-item">
           <h2>Service 1</h2>
           <p>Description of Service 1. This is a brief overview of what the service entails.</p>
@@ -29,5 +29,5 @@ function AboutPage() {
   );
 }
 
-export default ServicesPage;
+export default AboutPage;
 
