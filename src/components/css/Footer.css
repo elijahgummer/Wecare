@@ -3,13 +3,12 @@ footer {
   background-color: #5599f9;
   z-index: -10;
   padding: 50px;
-  bottom: 0;
+  bottom: 0px;
 }
 footer .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -50px;
 }
 footer .container .content {
   display: flex;
