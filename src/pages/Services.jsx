@@ -27,6 +27,5 @@ function ServicesPage() {
     </div>
   );
 }
-
 export default ServicesPage;
 
