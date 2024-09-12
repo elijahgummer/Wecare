@@ -1,7 +1,7 @@
 // ServicesPage.js
 import React from "react";
 import servicesHeader from "../components/images/servicesPageHeader.png"; // Adjust path as needed
-import './components/css/servicesPage.css';
+import '../components/css/servicesPage.css';
 function ServicesPage() {
   return (
     <div id="servicePage">
