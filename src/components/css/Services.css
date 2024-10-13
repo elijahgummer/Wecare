@@ -35,7 +35,6 @@
   height: 100%;
   object-fit: cover;
 }
-
 #services .image-box::before {
   content: "";
   position: absolute;
