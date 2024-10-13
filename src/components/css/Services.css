@@ -91,7 +91,6 @@
     flex-direction: column; /* Stack images vertically */
     align-items: center;
   }
-
   #services .image-box {
     width: 90%; /* Full width for mobile */
     height: auto; /* Auto height to maintain image ratio */
