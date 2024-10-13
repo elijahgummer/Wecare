@@ -139,11 +139,9 @@
     align-items: center;
     justify-content: center;
   }
-
   .logo {
     width: 100%; /* Full width for logo on small screens */
   }
-
   .navbar .menu-list {
     position: fixed;
     height: 100vh;
