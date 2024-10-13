@@ -120,6 +120,7 @@
   }
   .logo {
     width: 100%; /* Full width for logo on small screens */
+    margin: 0;
   }
   .navbar .menu-list {
     position: fixed;
