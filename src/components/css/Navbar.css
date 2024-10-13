@@ -164,7 +164,6 @@
   .navbar.show .menu-list {
     left: 0%; /* Show menu when active */
   }
-
   .navbar .menu-list li {
     margin: 10px; /* Spacing between items */
   }
