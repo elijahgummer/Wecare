@@ -168,13 +168,11 @@
   .navbar .menu-list li {
     margin: 10px; /* Spacing between items */
   }
-
   .navbar .menu-list li a {
     font-size: 23px; /* Larger font for mobile */
     margin-left: -100%; /* Offscreen by default */
     transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
-
   .navbar.show .menu-list li a {
     margin-left: 0px; /* Slide in when active */
   }
