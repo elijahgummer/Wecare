@@ -59,7 +59,6 @@
   transition: all ease-in-out 0.5s;
   display: none; /* Initially hidden */
 }
-
 .navbar button:hover {
   color: black;
   background-color: white;
