@@ -1,46 +1,62 @@
-.button-container{
+.button-container {
     margin-top: 20px;
+    display: flex; /* Use flexbox to arrange buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap on small screens */
+    justify-content: center; /* Center the buttons */
 }
+
 .primButton,
-.secButton {
-    padding: 20px 40px;
+.secButton,
+.ThirdButton {
+    padding: 10px 20px; /* Adjust padding for responsiveness */
     color: #ffffff;
-    width: 300px;
-    font-size: 15px;
+    width: 80%; /* Make width responsive */
+    max-width: 300px; /* Maximum width */
+    font-size: 15px; /* Base font size */
     font-weight: 700;
     margin: 5px;
     transition: all 0.5s ease-in-out;
 }
+
 .primButton {
     background-color: #5599F8;
     border: 2px solid #5599F8;
 }
+
 .secButton {
- background-color: transparent;
- border: 2px solid #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
 }
+
 .primButton:hover {
     background-color: #ffffff;
     border: 2px solid #5599F8;
     color: #5599F8;
 }
+
 .secButton:hover {
     background-color: #ffffff;
     border: 2px solid #5599F8;
     color: #5599F8;
 }
+
 .ThirdButton {
-    padding: 20px 40px;
     color: #5599F8;
     background-color: #ffffff;
     border: 2px solid #5599F8;
-    width: 300px;
-    font-size: 15px;
-    font-weight: 700;
-    margin: 5px;
-    transition: all 0.5s ease-in-out;
 }
+
 .ThirdButton:hover {
     color: #ffffff;
     background-color: #5599F8;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 600px) {
+    .primButton,
+    .secButton,
+    .ThirdButton {
+        font-size: 14px; /* Slightly smaller font size */
+        padding: 8px 16px; /* Adjust padding */
+    }
 }
