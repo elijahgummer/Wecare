@@ -47,7 +47,6 @@
         font-size: 16px;
     }
 }
-
 @media (max-width: 768px) {
     #cta .container {
         padding: 30px; /* Increase padding for small screens */
