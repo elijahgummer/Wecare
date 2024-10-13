@@ -79,7 +79,6 @@
   cursor: pointer;
   display: none; /* Initially hidden */
 }
-
 .icon:hover {
   color: #2d2e32;
   transition: all 0.3s;
