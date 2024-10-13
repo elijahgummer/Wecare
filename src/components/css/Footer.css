@@ -74,7 +74,6 @@ footer .info-box p {
   font-weight: 500;
   margin: 6px;
 }
-
 /* Responsive Styles */
 @media (max-width: 768px) {
   footer .info-box {
