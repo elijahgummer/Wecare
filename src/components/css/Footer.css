@@ -20,7 +20,6 @@ footer .container .content {
   flex-direction: row;
   width: 90%;
 }
-
 footer .logo-container {
   display: flex;
   align-items: center;
