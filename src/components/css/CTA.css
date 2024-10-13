@@ -16,7 +16,6 @@
     flex-direction: column;
     text-align: center; /* Center content for smaller screens */
 }
-
 #cta h1 {
     font-size: 33px;
     color: #444444;
