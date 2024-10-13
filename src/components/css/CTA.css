@@ -67,4 +67,7 @@
     #cta .primButton {
         width: 160px;
     }
+    #cta .image-container img {
+        width: 100%;
+    }
 }
