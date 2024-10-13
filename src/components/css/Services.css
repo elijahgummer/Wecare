@@ -72,7 +72,6 @@
 #services .image-box:hover .content-box {
   opacity: 1;
 }
-
 /* Responsive Styles */
 @media (max-width: 1200px) {
   #services .image-box {
