@@ -81,20 +81,16 @@ footer .info-box p {
     width: 100%; /* Full width on small screens */
     margin-bottom: 20px; /* Add spacing between info boxes */
   }
-
   footer .container .content {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center items */
   }
-
   footer .info-box h3 {
     font-size: 16px; /* Smaller font size */
   }
-
   footer .info-box p {
     font-size: 16px; /* Smaller font size */
   }
-
   footer .logo-container .social-icons i {
     font-size: 20px; /* Smaller icon size */
   }
