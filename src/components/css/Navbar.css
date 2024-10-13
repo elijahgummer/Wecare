@@ -125,7 +125,6 @@
   .contact-row {
     display: none; /* Hide contact row on small screens */
   }
-
   .navbar {
     top: 0;
     display: flex;
