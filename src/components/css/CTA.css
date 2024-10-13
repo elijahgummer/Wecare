@@ -35,7 +35,6 @@
 #cta .primButton {
     width: 220px;
 }
-
 /* Responsive Styles */
 @media (max-width: 1200px) {
     #cta h1 {
