@@ -112,7 +112,6 @@
   body.disabled {
     overflow: hidden; /* Prevent scrolling when menu is open */
   }
-
   .icon {
     display: block; /* Show icon on small screens */
     font-size: 27px;
