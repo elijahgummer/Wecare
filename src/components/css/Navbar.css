@@ -160,7 +160,6 @@
     background: #ff6600;
     transition: all 0.3s ease; /* Transition effect for menu */
   }
-
   .navbar.show .menu-list {
     left: 0%; /* Show menu when active */
   }
