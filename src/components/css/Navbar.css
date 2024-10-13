@@ -188,7 +188,6 @@
 .menu-list {
   display: none; /* Hide menu by default */
 }
-
 /* When menu is open, show it */
 .menu-list.active {
   display: block; /* Show the menu when active */
