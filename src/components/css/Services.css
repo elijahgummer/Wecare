@@ -51,7 +51,6 @@
 #services .image-box:hover::before {
   opacity: 1;
 }
-
 #services .content-box {
   position: absolute;
   top: 50%;
