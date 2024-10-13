@@ -121,7 +121,6 @@
   .icon.hide {
     display: none; /* Hide icon if not needed */
   }
-
   .contact-row {
     display: none; /* Hide contact row on small screens */
   }
