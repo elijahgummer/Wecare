@@ -106,7 +106,6 @@
   width: 170px;
   height: 60px;
 }
-
 /* Responsive Styles */
 @media (max-width: 868px) {
   body.disabled {
