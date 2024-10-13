@@ -241,7 +241,6 @@
     color: #ffffff;
     background-color: #5599F8;
 }
-
 /* Media Query for Smaller Screens */
 @media (max-width: 600px) {
     .primButton,
