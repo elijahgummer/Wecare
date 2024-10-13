@@ -70,7 +70,6 @@
     font-size: 18px;
   }
 }
-
 @media (max-width: 480px) {
   #hero {
     background-position: center top; /* Further adjust background position */
