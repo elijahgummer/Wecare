@@ -99,7 +99,6 @@ footer .info-box p {
     font-size: 20px; /* Smaller icon size */
   }
 }
-
 @media (max-width: 480px) {
   footer .info-box h3 {
     font-size: 14px; /* Further reduce font size */
