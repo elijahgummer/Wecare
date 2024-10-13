@@ -1,48 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add this line */
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    height: auto;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #ffffff; 
+    align-items: center;
+    text-align: center;
+    z-index: 5;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    margin-right: 20px;
+}
+
+.navbar ul a {
+    color: #7d7d7d;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all 0.23s;
+}
+
+.navbar ul a:hover {
+    color: #000000;
+}
+
+.navbar ul li {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu-list {
+    display: inline-flex;
+}
+
+.navbar button {
+    background-color: #ff6600;
+    border: 1.5px solid white;
+    padding: 15px;
+    margin: 50px 10px 10px 10px;
+    width: 200px;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    transition: all ease-in-out 0.5s;
+    display: none;
+}
+
+.navbar button:hover {
+    color: black;
+    background-color: white;
+}
+
+.menu-list li {
+    list-style: none;
+}
+
+.menu-list li a:hover {
+    color: #2d2e32;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon:hover {
+    color: #2d2e32;
+    transition: all 0.3s;
+}
+
+.menu-list .cancel-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 800;
+    margin-left: 40px;
+    width: 170px;
+    height: 60px;
+}
+
+@media (max-width: 868px) {
+    body.disabled {
+        overflow: hidden;
+    }
+
+    .icon {
+        display: block;
+        font-size: 27px;
+    }
+
+    .icon.hide {
+        display: none;
+    }
+
+    .contact-row {
+        display: none;
+    }
+
+    .navbar {
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-container {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    .navbar .menu-list {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        max-width: 100%;
+        left: -100%;
+        top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 40px 0;
+        text-align: center;
+        background: #ff6600;
+        transition: all 0.3s ease;
+    }
+
+    .navbar.show .menu-list {
+        left: 0%;
+    }
+
+    .navbar .menu-list li {
+        margin: 10px;
+    }
+
+    .navbar .menu-list li a {
+        font-size: 23px;
+        margin-left: -100%;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    .navbar.show .menu-list li a {
+        margin-left: 0px;
+    }
+}
+
+/* Initially hide the menu */
+.menu-list {
+    display: none;
+}
+
+/* When menu is open, show it */
+.menu-list.active {
+    display: block;
+}
+
+/* Button Container */
 .button-container {
     margin-top: 20px;
     display: flex; /* Use flexbox to arrange buttons */
     flex-wrap: wrap; /* Allow buttons to wrap on small screens */
     justify-content: center; /* Center the buttons */
 }
+
 .primButton,
 .secButton,
 .ThirdButton {
-    padding: 10px 20px; /* Adjust padding for responsiveness */
+    padding: 15px 30px; /* Increased padding */
     color: #ffffff;
-    width: 80%; /* Make width responsive */
-    max-width: 300px; /* Maximum width */
-    font-size: 15px; /* Base font size */
+    width: 100%; /* Set to full width */
+    max-width: 400px; /* Increase max-width for larger buttons */
+    font-size: 18px; /* Larger font size */
     font-weight: 700;
     margin: 5px;
     transition: all 0.5s ease-in-out;
 }
+
 .primButton {
     background-color: #5599F8;
     border: 2px solid #5599F8;
 }
+
 .secButton {
     background-color: transparent;
     border: 2px solid #ffffff;
 }
+
 .primButton:hover {
     background-color: #ffffff;
     border: 2px solid #5599F8;
     color: #5599F8;
 }
+
 .secButton:hover {
     background-color: #ffffff;
     border: 2px solid #5599F8;
     color: #5599F8;
 }
+
 .ThirdButton {
     color: #5599F8;
     background-color: #ffffff;
     border: 2px solid #5599F8;
 }
+
 .ThirdButton:hover {
     color: #ffffff;
     background-color: #5599F8;
 }
+
 /* Media Query for Smaller Screens */
 @media (max-width: 600px) {
     .primButton,
