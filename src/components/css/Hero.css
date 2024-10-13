@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: flex-start;
 }
+
 #hero .content {
   display: flex;
   align-items: center;
@@ -20,15 +21,70 @@
   margin-top: 100px;
   width: 34%;
 }
+
 #hero h1 {
   font-size: 70px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 #hero p {
-    margin-top: 10px;
+  margin-top: 10px;
   font-size: 23px;
-  font-family: "Mulish" sans-serif;
+  font-family: "Mulish", sans-serif;
 }
-@media (max-width: 768px) {
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  #hero .content {
+    width: 50%;
+    margin-left: 20px;
+  }
   
+  #hero h1 {
+    font-size: 50px;
+  }
+  
+  #hero p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    justify-content: center;
+    background-position: center 50px; /* Adjusts background positioning for smaller screens */
+  }
+
+  #hero .content {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 50px;
+    text-align: center; /* Center the content on smaller screens */
+  }
+
+  #hero h1 {
+    font-size: 40px;
+  }
+
+  #hero p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero {
+    background-position: center top; /* Further adjust background position */
+  }
+
+  #hero h1 {
+    font-size: 32px;
+  }
+
+  #hero p {
+    font-size: 16px;
+  }
+
+  #hero .content {
+    margin-top: 20px;
+  }
 }
