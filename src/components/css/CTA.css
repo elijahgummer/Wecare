@@ -52,16 +52,13 @@
     #cta .container {
         padding: 30px; /* Increase padding for small screens */
     }
-
     #cta h1 {
         font-size: 28px;
     }
-
     #cta p {
         width: 80%;
         font-size: 15px;
     }
-
     #cta .primButton {
         width: 180px;
     }
