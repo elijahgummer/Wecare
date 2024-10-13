@@ -21,7 +21,6 @@
   width: 80%;
   flex-wrap: wrap; /* Allow images to wrap on smaller screens */
 }
-
 #services .image-box {
   position: relative;
   width: 300px;
