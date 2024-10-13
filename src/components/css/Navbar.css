@@ -178,12 +178,10 @@
   .navbar.show .menu-list li a {
     margin-left: 0px; /* Slide in when active */
   }
-
   .navbar button {
     display: block; /* Show button on small screens */
   }
 }
-
 /* Initially hide the menu */
 .menu-list {
   display: none; /* Hide menu by default */
