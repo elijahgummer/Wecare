@@ -5,10 +5,10 @@ import About from './components/About';
 import Services from './components/Services';
 import CallToAction from './components/callToAction';
 import Footer from './components/Footer';
-import React, { useState } from 'react';
-import ServicesPage from './pages/Services'
-
-// Example Page Components
+import ServicesPage from './pages/Services';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
+// Page Components
 function HomePage() {
   return (
     <div>
@@ -19,46 +19,30 @@ function HomePage() {
     </div>
   );
 }
-
-
-
 function AboutPage() {
   return <div><h1>About Us</h1></div>;
 }
-
 function ContactPage() {
   return <div><h1>Contact Us</h1></div>;
 }
-
 function NotFoundPage() {
   return <div><h1>404 - Page Not Found</h1></div>;
 }
-
 function App() {
-  const [currentPage, setCurrentPage] = useState('home');
-
-  const renderPage = () => {
-    switch (currentPage) {
-      case 'home':
-        return <HomePage />;
-      case 'services':
-        return <ServicesPage />;
-      case 'about':
-        return <AboutPage />;
-      case 'contact':
-        return <ContactPage />;
-      default:
-        return <NotFoundPage />;
-    }
-  };
-
   return (
-    <div className="App">
-      <Navbar setCurrentPage={setCurrentPage} />
-      {renderPage()}
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
-
 export default App;

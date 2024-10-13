@@ -1,34 +1,59 @@
 import React, { useState } from "react";
 import './css/Navbar.css'; // Importing the CSS file
 import logo from './images/logo.png'; // Adjust path as needed
-
+import { useNavigate } from "react-router-dom";
 function Navbar({ setCurrentPage }) {
   // State to manage whether the menu is open
   const [menuOpen, setMenuOpen] = useState(false);
-
   // Function to toggle menu visibility
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-
+  // Function to handle link click with smooth scrolling
+  const handleLinkClick = (e, sectionId) => {
+    e.preventDefault(); // Prevent default anchor behavior
+    const targetElement = document.querySelector(sectionId);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+    setMenuOpen(false); // Close the menu after navigating
+  };
+  const navigate = useNavigate();
   return (
     <nav className="navbar">
-      <div className="icon phone-btn">
-        <i className="fa-solid fa-phone"></i>
-      </div>
       <div className="logo-container">
-        <img className="logo" src={logo} alt="logo" />
+        <img
+          className="logo"
+          src={logo}
+          alt="logo"
+          onClick={() => navigate("/")}
+          style={{ cursor: 'pointer' }}
+        />
       </div>
       {/* Apply active class when menu is open */}
       <ul id="sidemenu" className={`menu-list ${menuOpen ? 'active' : ''}`}>
         <div className="icon cancel-btn" onClick={toggleMenu}>
           <i className="fa-solid fa-xmark"></i>
         </div>
-        <li><a href="#home" onClick={() => setCurrentPage('home')}>Home</a></li>
-        <li><a href="#services" onClick={() => setCurrentPage('services')}>Services</a></li>
-        <li><a href="#about" onClick={() => setCurrentPage('about')}>About</a></li>
-        <li><a href="#contact" onClick={() => setCurrentPage('contact')}>Contact</a></li>
-        <button>CALL NOW</button>
+        <li>
+          <a href="#hero" onClick={(e) => handleLinkClick(e, '#hero')}>Home</a>
+        </li>
+        <li>
+          <a href="#about" onClick={(e) => handleLinkClick(e, '#about')}>About</a>
+        </li>
+        <li>
+          <a href="#prices" onClick={(e) => handleLinkClick(e, '#prices')}>Prices</a>
+        </li>
+        <li>
+          <a href="#reviews" onClick={(e) => handleLinkClick(e, '#reviews')}>Reviews</a>
+        </li>
+        <li>
+          <a href="#service" onClick={(e) => handleLinkClick(e, '#service')}>Services</a>
+        </li>
+        <li>
+          <a href="#contact" onClick={(e) => handleLinkClick(e, '#contact')}>Contact</a>
+        </li>
+        <button onClick={() => navigate("/booking")}>BOOK NOW</button>
       </ul>
       <div className="icon menu-btn" onClick={toggleMenu}>
         <i className="fa-solid fa-bars"></i>
@@ -36,5 +61,4 @@ function Navbar({ setCurrentPage }) {
     </nav>
   );
 }
-
 export default Navbar;
