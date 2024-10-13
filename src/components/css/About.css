@@ -46,7 +46,6 @@
     font-size: 17px;
     margin: 20px 0;
 }
-
 /* Responsive Styles */
 @media (max-width: 1200px) {
     #about .container {
