@@ -5,11 +5,14 @@ footer {
   padding: 50px;
   bottom: 0px;
 }
+
 footer .container {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
+
 footer .container .content {
   display: flex;
   align-items: center;
@@ -17,20 +20,24 @@ footer .container .content {
   flex-direction: row;
   width: 90%;
 }
+
 footer .logo-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
 footer .info-box.one {
-    margin-top: 60px;
+  margin-top: 60px;
 }
+
 footer .social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 footer .logo-container .social-icons i {
   display: flex;
   align-items: center;
@@ -38,28 +45,67 @@ footer .logo-container .social-icons i {
   margin: 10px;
   font-size: 24px;
 }
+
 footer .info-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 40%;
+  width: 40%; /* Default width for larger screens */
   height: auto;
 }
+
 footer .info-box i {
   font-size: 45px;
   color: #ffffff;
   margin: 10px;
 }
+
 footer .info-box h3 {
   font-weight: 800;
   color: #ffffff;
   font-size: 18px;
   margin: 10px;
 }
+
 footer .info-box p {
   color: #ffffff;
   font-size: 18px;
   font-weight: 500;
   margin: 6px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  footer .info-box {
+    width: 100%; /* Full width on small screens */
+    margin-bottom: 20px; /* Add spacing between info boxes */
+  }
+
+  footer .container .content {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  footer .info-box h3 {
+    font-size: 16px; /* Smaller font size */
+  }
+
+  footer .info-box p {
+    font-size: 16px; /* Smaller font size */
+  }
+
+  footer .logo-container .social-icons i {
+    font-size: 20px; /* Smaller icon size */
+  }
+}
+
+@media (max-width: 480px) {
+  footer .info-box h3 {
+    font-size: 14px; /* Further reduce font size */
+  }
+
+  footer .info-box p {
+    font-size: 14px; /* Further reduce font size */
+  }
 }
