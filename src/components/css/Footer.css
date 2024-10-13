@@ -12,7 +12,6 @@ footer .container {
   justify-content: center;
   flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
-
 footer .container .content {
   display: flex;
   align-items: center;
