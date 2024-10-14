@@ -4,7 +4,8 @@ import "../components/css/servicesPage.css";
 import obstetrics from "../components/images/obstetrics.png";
 import pediatrics from "../components/images/pediatrics.png";
 import seniorcare from "../components/images/seniorcare.png";
-
+import pills from './images/pills.png'
+import { PrimButton } from "./Buttons";
 function ServicesPage() {
   return (
     <div id="servicePage">
