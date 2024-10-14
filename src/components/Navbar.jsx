@@ -39,7 +39,7 @@ function Navbar({ setCurrentPage }) {
           <a href="#hero" onClick={(e) => handleLinkClick(e, '#hero')}>HOME</a>
         </li>
         <li>
-          <a href="#services" onClick={(e) => handleLinkClick(e, '#services')}>SERVICES</a>
+          <a href="#services" onClick={() => navigate("/services")}>SERVICES</a>
         </li>
         <li>
           <a href="#about" onClick={(e) => handleLinkClick(e, '#about')}>ABOUT</a>
