@@ -38,6 +38,7 @@ p {
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
+  width: 80%;
 }
 #servicePage .card-container .content h1 {
   color: #444444;
