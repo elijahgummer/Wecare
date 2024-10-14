@@ -11,6 +11,9 @@
   align-items: center;
   margin-bottom: 30px;
 }
+.hero-con h1 {
+    color: #ffffff;
+}
 .servicesHeader {
   margin-top: 50px;
   width: 100%;
