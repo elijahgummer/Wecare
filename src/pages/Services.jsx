@@ -20,8 +20,10 @@ function ServicesPage() {
       </p>
       <div className="card-container">
         <img src={obstetrics} alt="obstetrics" />
+        <div className="content">
         <h1>Pediatrics</h1>
         <p>From newborns until the age of 18, pediatric medicine covers everything from vaccinations and checkups to sleeping and feeding problems, obesity, learning issues and mental health. We have four in-house pediatric doctors, each with his or her own specialty, to ensure that you get the pediatric care that every child deserves. </p>
+        </div>
       </div>
       <div className="card-container">
         <img src={pediatrics} alt="pediatrics" />
