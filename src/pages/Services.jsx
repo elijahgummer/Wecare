@@ -24,6 +24,9 @@ function ServicesPage() {
       <div className="card-container">
         <img src={pediatrics} alt="pediatrics" />
       </div>
+      <div className="card-container">
+        <img src={seniorcare} alt="seniorcare" />
+      </div>
     </div>
   );
 }
