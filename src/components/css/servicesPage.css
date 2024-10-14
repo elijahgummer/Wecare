@@ -55,8 +55,8 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     padding: 30px;
   }
-  .card-container {
-    
+  .card-container.ob {
+    flex-direction: row-reverse;
   }
   .card-container:hover {
     transform: translateY(-10px);
