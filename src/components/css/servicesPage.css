@@ -42,5 +42,8 @@ p {
 #servicePage .card-container .content h1 {
   color: #444444;
   font-size: 36px;
-  
+}
+#servicePage .card-container .content p {
+  color: #444444;
+  font-size: 18px;
 }
