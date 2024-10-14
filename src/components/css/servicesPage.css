@@ -39,9 +39,8 @@ p {
   justify-content: flex-start;
   flex-direction: column;
 }
-#servicePage .card-container .content {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: column;
+#servicePage .card-container .content h1 {
+  color: #444444;
+  font-size: 36px;
+  
 }
