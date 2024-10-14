@@ -135,3 +135,76 @@
       font-size: 1.1rem;
     }
   }
+  #cta .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, #aaaaaad9 1px, transparent 1px);
+    background-size: 20px 20px;
+    padding: 20px;
+    margin-top: 100px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+#cta .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center; /* Center content for smaller screens */
+}
+#cta h1 {
+    font-size: 33px;
+    color: #444444;
+    font-weight: 700;
+}
+#cta p {
+    margin: 20px 0px;
+    width: 50%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414141;
+    font-weight: 100;
+}
+#cta .primButton {
+    width: 220px;
+}
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    #cta h1 {
+        font-size: 30px;
+    }
+    #cta p {
+        width: 60%;
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    #cta .container {
+        padding: 30px; /* Increase padding for small screens */
+    }
+    #cta h1 {
+        font-size: 28px;
+    }
+    #cta p {
+        width: 80%;
+        font-size: 15px;
+    }
+    #cta .primButton {
+        width: 180px;
+    }
+}
+@media (max-width: 480px) {
+    #cta h1 {
+        font-size: 24px;
+    }
+    #cta p {
+        width: 90%;
+        font-size: 14px;
+    }
+    #cta .primButton {
+        width: 160px;
+    }
+    #cta .image-container img {
+        width: 100%;
+    }
+}
