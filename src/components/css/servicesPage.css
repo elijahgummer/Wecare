@@ -23,3 +23,9 @@ p {
   color: #333;
   font-family: "Arial", sans-serif;
 }
+#servicePage .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
