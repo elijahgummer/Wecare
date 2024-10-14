@@ -1,29 +1,28 @@
 #servicePage {
-    background-color: #f8f9fa;
-  }
-  
-  .hero-con {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  
-  .servicesHeader {
-    margin-top: 50px;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  }
-  
-  p {
-    max-width: 800px;
-    margin: 20px auto;
-    font-size: 1.25rem;
-    line-height: 1.6;
-    text-align: center;
-    color: #333;
-    font-family: "Arial", sans-serif;
-  }
-  
+  background-color: #f8f9fa;
+}
+
+.hero-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.servicesHeader {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  text-align: center;
+  color: #333;
+  font-family: "Arial", sans-serif;
+}
