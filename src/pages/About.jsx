@@ -1,10 +1,10 @@
 // AboutPage.js
 import React from 'react';
 import Footer from './components/Footer'; // Adjust the import path as needed
-
+import "../components/css/aboutPage.css";
 function AboutPage() {
   return (
-    <div className="services-page">
+    <div className="about-page">
       <header className="services-header">
         <h1>Our Services</h1>
         <p>We offer a variety of about to meet your needs.</p>
@@ -28,6 +28,5 @@ function AboutPage() {
     </div>
   );
 }
-
 export default AboutPage;
 
