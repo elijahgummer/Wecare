@@ -10,6 +10,7 @@ function ServicesPage() {
     <div id="servicePage">
       <div className="hero-con">
         <img className="servicesHeader" src={servicesHeader} alt="logo" />
+        <h1>SERVICES</h1>
       </div>
       <p>
         We offer a wide range of services, from maternal care to senior care,
