@@ -1,3 +1,7 @@
 #about-page {
     padding: 100px;
 }
+#about-page .services-header{
+    font-size: 90px;
+    color: black;
+}
