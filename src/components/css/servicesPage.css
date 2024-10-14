@@ -6,12 +6,15 @@
   background-color: #f8f9fa;
 }
 .hero-con {
+    position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
 .hero-con h1 {
+    position: absolute;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     color: #ffffff;
     font-size: 78px;
 }
