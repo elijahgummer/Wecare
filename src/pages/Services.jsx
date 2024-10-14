@@ -34,6 +34,10 @@ function ServicesPage() {
       </div>
       <div className="card-container">
         <img src={seniorcare} alt="seniorcare" />
+        <div className="content">
+          <h1>Senior Care</h1>
+          <p>Our team of geriatric specialists helps you manage your changing health needs as you age. We offer comprehensive primary care and consultations to support patients and families coping with challenging conditions related to aging. Our services include primary care for adults 65 years and older who have neurological conditions such as dementia and cognitive impairment. </p>
+        </div>
       </div>
     </div>
   );
