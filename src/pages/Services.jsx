@@ -2,6 +2,9 @@
 import React from "react";
 import servicesHeader from "../components/images/servicesPageHeader.png"; // Adjust path as needed
 import '../components/css/servicesPage.css';
+import obstetrics from "./images/obstetrics.png";
+import pediatrics from "./images/pediatrics.png";
+import seniorcare from "./images/seniorcare.png";
 function ServicesPage() {
   return (
     <div id="servicePage">
@@ -10,7 +13,7 @@ function ServicesPage() {
       </div>
       <p>We offer a wide range of services, from maternal care to senior care, from pediatrics to dentistry. Our mission is to help you maintain a high quality of life through best health practices, and our entire staff is dedicated to this goal. We offer holistic solutions to meet all of your health needs. </p>
       <div className="card-container">
-        
+        <img src="." alt="" />
       </div>
     </div>
   );
