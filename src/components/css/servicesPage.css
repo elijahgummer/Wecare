@@ -1,4 +1,8 @@
 #servicePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   background-color: #f8f9fa;
 }
 .hero-con {
@@ -27,6 +31,7 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    width: 90%;
 }
 #servicePage .card-container .content{
     display: flex;
