@@ -35,7 +35,7 @@ function ServicesPage() {
       </div>
 
       {/* Obstetrics Card */}
-      <div className="card-container">
+      <div className="card-container ob">
         <img src={obstetrics} alt="obstetrics" />
         <div className="content">
           <h1>Obstetrics</h1>
