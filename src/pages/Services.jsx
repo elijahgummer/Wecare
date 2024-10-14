@@ -27,6 +27,9 @@ function ServicesPage() {
       </div>
       <div className="card-container">
         <img src={pediatrics} alt="pediatrics" />
+        <div className="content">
+          <h1>Obstetrics </h1>
+        </div>
       </div>
       <div className="card-container">
         <img src={seniorcare} alt="seniorcare" />
