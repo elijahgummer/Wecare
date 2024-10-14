@@ -2,13 +2,16 @@ import React, { useState } from "react";
 import './css/Navbar.css'; // Importing the CSS file
 import logo from './images/logo.png'; // Adjust path as needed
 import { useNavigate } from "react-router-dom";
+
 function Navbar({ setCurrentPage }) {
   // State to manage whether the menu is open
   const [menuOpen, setMenuOpen] = useState(false);
+
   // Function to toggle menu visibility
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
   // Function to handle link click with smooth scrolling
   const handleLinkClick = (e, sectionId) => {
     e.preventDefault(); // Prevent default anchor behavior
@@ -18,7 +21,9 @@ function Navbar({ setCurrentPage }) {
     }
     setMenuOpen(false); // Close the menu after navigating
   };
+
   const navigate = useNavigate();
+
   return (
     <nav className="navbar">
       <div className="logo-container">
@@ -42,7 +47,7 @@ function Navbar({ setCurrentPage }) {
           <a href="#services" onClick={() => navigate("/services")}>SERVICES</a>
         </li>
         <li>
-          <a href="#about" onClick={() => navigate("/abouts")}>ABOUT</a>
+          <a href="#about" onClick={() => navigate("/about")}>ABOUT</a> {/* Updated the navigate path */}
         </li>
         <li>
           <a href="#contact" onClick={(e) => handleLinkClick(e, '#contact')}>CONTACT</a>
@@ -55,4 +60,5 @@ function Navbar({ setCurrentPage }) {
     </nav>
   );
 }
+
 export default Navbar;

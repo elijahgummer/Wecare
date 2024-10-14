@@ -6,8 +6,10 @@ import Services from './components/Services';
 import CallToAction from './components/callToAction';
 import Footer from './components/Footer';
 import ServicesPage from './pages/Services';
+import AboutPage from './pages/About'; // Updated import to match the correct file name
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
+
 // Page Components
 function HomePage() {
   return (
@@ -19,15 +21,15 @@ function HomePage() {
     </div>
   );
 }
-function AboutPage() {
-  return <div><h1>About Us</h1></div>;
-}
+
 function ContactPage() {
   return <div><h1>Contact Us</h1></div>;
 }
+
 function NotFoundPage() {
   return <div><h1>404 - Page Not Found</h1></div>;
 }
+
 function App() {
   return (
     <Router>
@@ -36,7 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/services" element={<ServicesPage />} />
-          <Route path="/about" element={<AboutPage />} />
+          <Route path="/about" element={<AboutPage />} /> {/* Fixed the path */}
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
@@ -45,4 +47,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;
