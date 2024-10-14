@@ -29,6 +29,7 @@ function ServicesPage() {
         <img src={pediatrics} alt="pediatrics" />
         <div className="content">
           <h1>Obstetrics </h1>
+          <p>We provide a complete line of medical services to ensure a safe and sound pregnancy. The services we offer cover personalized care before, during and after pregnancy. Our in-house midwives and obstetricians provide periodic comprehensive examinations and childbirth preparation classes. We also offer evaluation, diagnosis and treatment of a wide range of obstetric-related issues.</p>
         </div>
       </div>
       <div className="card-container">
