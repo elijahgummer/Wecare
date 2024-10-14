@@ -1,5 +1,4 @@
 #servicePage {
-    padding: 40px 20px;
     background-color: #f8f9fa;
   }
   
@@ -16,8 +15,7 @@
     max-width: 1200px;
     height: auto;
     object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   }
   
   p {
