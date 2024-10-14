@@ -12,7 +12,6 @@
   .servicesHeader {
     margin-top: 50px;
     width: 100%;
-    max-width: 1200px;
     height: auto;
     object-fit: cover;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -20,7 +19,7 @@
   
   p {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     font-size: 1.25rem;
     line-height: 1.6;
     text-align: center;
