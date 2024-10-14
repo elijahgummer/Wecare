@@ -50,9 +50,7 @@ function Navbar({ setCurrentPage }) {
         <li>
           <a href="#service" onClick={(e) => handleLinkClick(e, '#service')}>Services</a>
         </li>
-        <li>
-          <a href="#contact" onClick={(e) => handleLinkClick(e, '#contact')}>Contact</a>
-        </li>
+        
         <button onClick={() => navigate("/booking")}>BOOK NOW</button>
       </ul>
       <div className="icon menu-btn" onClick={toggleMenu}>
