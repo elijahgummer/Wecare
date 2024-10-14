@@ -36,7 +36,7 @@ function Navbar({ setCurrentPage }) {
           <i className="fa-solid fa-xmark"></i>
         </div>
         <li>
-          <a href="#hero" onClick={(e) => handleLinkClick(e, '#hero')}>HOME</a>
+          <a href="#hero" >HOME</a>
         </li>
         <li>
           <a href="#services" onClick={() => navigate("/services")}>SERVICES</a>
