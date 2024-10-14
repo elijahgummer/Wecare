@@ -60,7 +60,7 @@
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
   }
   .card-container img {
-    width: 70%;
+    width: 50%;
     height: 400px;
     border-radius: 12px;
     object-fit: cover;
@@ -75,7 +75,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 100%;
+    width: 50%;
   }
   .card-container .content h1 {
     color: #444444;
