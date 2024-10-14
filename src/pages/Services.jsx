@@ -31,9 +31,6 @@ function ServicesPage() {
             problems, obesity, learning issues, and mental health. We have four
             in-house pediatric doctors to ensure every child gets the care they deserve.
           </p>
-          <div className="cta">
-            <a href="#">Learn More</a>
-          </div>
         </div>
       </div>
 
@@ -46,9 +43,6 @@ function ServicesPage() {
             We provide a complete line of medical services to ensure a safe and
             sound pregnancy. Our in-house midwives and obstetricians offer personalized care before, during, and after pregnancy, with evaluations, diagnosis, and treatment.
           </p>
-          <div className="cta">
-            <a href="#">Learn More</a>
-          </div>
         </div>
       </div>
 
@@ -60,9 +54,6 @@ function ServicesPage() {
           <p>
             Our team of geriatric specialists supports your health needs as you age. We offer primary care and consultations for adults 65+ with conditions like dementia, ensuring you receive compassionate, comprehensive care.
           </p>
-          <div className="cta">
-            <a href="#">Learn More</a>
-          </div>
         </div>
       </div>
     </div>
