@@ -7,7 +7,7 @@ function AboutPage() {
     <div className="about-page">
       <div className="hero-con">
         <img className="servicesHeader" src={aboutHeader} alt="logo" />
-        <h1>SERVICES</h1>
+        <h1>ABOUT</h1>
       </div>
       <section className="about-list">
         <div className="service-item">
