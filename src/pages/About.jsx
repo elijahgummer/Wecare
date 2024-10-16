@@ -9,7 +9,10 @@ function AboutPage() {
         <h1>ABOUT</h1>
       </div>
       <div className="info-con">
-        
+        <div className="image-container">
+          
+        </div>
+        <p></p>
       </div>
     </div>
   );
