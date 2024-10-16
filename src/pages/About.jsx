@@ -1,12 +1,12 @@
 import React from 'react';
 import "../components/css/aboutPage.css"; // Assuming the CSS file is in the components/css folder
-import servicesHeader from "../components/images/aboutHeader.png"; // Adjust path as needed
+import aboutHeader from "../components/images/aboutHeader.png"; // Adjust path as needed
 
 function AboutPage() {
   return (
     <div className="about-page">
       <div className="hero-con">
-        <img className="servicesHeader" src={servicesHeader} alt="logo" />
+        <img className="servicesHeader" src={aboutHeader} alt="logo" />
         <h1>SERVICES</h1>
       </div>
       <section className="about-list">
