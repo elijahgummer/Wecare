@@ -8,6 +8,9 @@ function AboutPage() {
         <img className="aboutHeader" src={aboutHeader} alt="logo" />
         <h1>ABOUT</h1>
       </div>
+      <div className="info-con">
+        
+      </div>
     </div>
   );
 }
