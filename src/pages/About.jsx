@@ -4,7 +4,7 @@ import aboutHeader from "../components/images/aboutHeader.png"; // Adjust path a
 
 function AboutPage() {
   return (
-    <div className="about-page">
+    <div id="aboutPageSection">
       <div className="hero-con">
         <img className="aboutHeader" src={aboutHeader} alt="logo" />
         <h1>ABOUT</h1>
