@@ -2,3 +2,28 @@
     font-size: 90px;
     color: black;
 }
+.hero-con {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .hero-con h1 {
+    position: absolute;
+    text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    font-size: 4.5rem;
+    font-weight: 800;
+    z-index: 1;
+    letter-spacing: 2px;
+  }
+  .servicesHeader {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
