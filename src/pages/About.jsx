@@ -6,7 +6,7 @@ function AboutPage() {
   return (
     <div className="about-page">
       <div className="hero-con">
-        <img className="servicesHeader" src={aboutHeader} alt="logo" />
+        <img className="aboutHeader" src={aboutHeader} alt="logo" />
         <h1>ABOUT</h1>
       </div>
       <section className="about-list">
