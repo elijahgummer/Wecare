@@ -27,6 +27,7 @@ function AboutPage() {
           clinic so you live a full and healthy life, and spend as little time
           as possible at the clinic.
         </p>
+        <h1>Hero for You</h1>
       </div>
     </div>
   );
