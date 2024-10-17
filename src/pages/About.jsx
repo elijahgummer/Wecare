@@ -13,6 +13,7 @@ function AboutPage() {
         <div className="image-container">
           <img className="people-image" src={people} alt="people-working" />
         </div>
+        <h1>Our Clinic</h1>
         <p>
           We Care Medical Clinic is dedicated to optimizing the quality of
           healthcare through an integrative approach to health and wellness. We
