@@ -28,6 +28,7 @@ function AboutPage() {
           as possible at the clinic.
         </p>
         <h1>Hero for You</h1>
+        <p>We are here to give you the best possible services, so you leave healthier than you arrived, and with more options for good health. We work collaboratively and cooperatively to ensure you get the very best services, whatever your needs.  </p>
       </div>
     </div>
   );
