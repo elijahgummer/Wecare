@@ -10,7 +10,7 @@ function AboutPage() {
       </div>
       <div className="info-con">
         <div className="image-container">
-        <img className="people-image" src={people} alt="logo" />
+        <img className="people-image" src={people} alt="people-working" />
         </div>
         <p></p>
       </div>
