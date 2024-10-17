@@ -10,7 +10,7 @@ function AboutPage() {
       </div>
       <div className="info-con">
         <div className="image-container">
-          
+        <img className="aboutHeader" src={aboutHeader} alt="logo" />
         </div>
         <p></p>
       </div>
