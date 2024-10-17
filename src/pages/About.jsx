@@ -1,6 +1,7 @@
 import React from 'react';
 import "../components/css/aboutPage.css"; // Assuming the CSS file is in the components/css folder
 import aboutHeader from "../components/images/aboutHeader.png"; // Adjust path as needed
+import people from "../components/images/people.png"; // Adjust path as needed
 function AboutPage() {
   return (
     <div id="aboutPageSection">
