@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "../components/css/aboutPage.css"; // Assuming the CSS file is in the components/css folder
 import aboutHeader from "../components/images/aboutHeader.png"; // Adjust path as needed
 import people from "../components/images/people.png"; // Adjust path as needed
@@ -11,7 +11,7 @@ function AboutPage() {
       </div>
       <div className="info-con">
         <div className="image-container">
-        <img className="people-image" src={people} alt="people-working" />
+          <img className="people-image" src={people} alt="people-working" />
         </div>
         <p></p>
       </div>
