@@ -37,6 +37,9 @@ function AboutPage() {
         <div className="feature-box">
           <p>Fast Emergency Response Time</p>
         </div>
+        <div className="feature-box">
+          <p>Proffesional Staff & Specialists</p>
+        </div>
       </div>
     </div>
   );
