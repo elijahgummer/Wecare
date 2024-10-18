@@ -41,6 +41,7 @@
 }
 #aboutPageSection .image-container {
   width: 50%;
+  height: 100%;
 }
 #aboutPageSection .content h1 {
   color: #444444;
