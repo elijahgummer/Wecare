@@ -39,8 +39,9 @@
   flex-direction: row-reverse;
   width: 90%;
 }
-#aboutPageSection .image-container .content {
-  
+#aboutPageSection .content {
+  width: 50%;
+  margin: 30px;
 }
 #aboutPageSection .image-container img {
   width: 400px;
