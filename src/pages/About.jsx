@@ -19,14 +19,7 @@ function AboutPage() {
           We Care Medical Clinic is dedicated to optimizing the quality of
           healthcare through an integrative approach to health and wellness. We
           include both conventional and complementary treatments for general
-          health, healing and well being. Our goal is to model and advance a
-          standard of integrative health care. We achieve this goal through our
-          four core values: integration, compassion, expertise and time. Each
-          and every professional that provides services at our clinic - from
-          nurses and doctors to technicians and administrative staff, are
-          dedicated to your good health and wellness. We do our best at the
-          clinic so you live a full and healthy life, and spend as little time
-          as possible at the clinic.
+          health, healing and well being. 
         </p>
         <p></p>
         <h1>Hero for You</h1>
