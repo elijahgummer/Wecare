@@ -42,6 +42,7 @@
 #aboutPageSection .content {
   width: 50%;
   margin: 30px;
+  text-align: left;
 }
 #aboutPageSection .image-container img {
   width: 400px;
