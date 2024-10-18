@@ -41,7 +41,7 @@ function AboutPage() {
           <p>Proffesional Staff & Specialists</p>
         </div>
         <div className="feature-box">
-          <p>Proffesional Staff & Specialists</p>
+          <p>Cutting-Edge Facilities</p>
         </div>
       </div>
     </div>
