@@ -139,6 +139,29 @@ function AboutPage() {
           <p>Proffesional Staff & Specialists</p>
         </div>
         <div className="feature-box">
+          <svg
+            viewBox="0 0 70 70"
+            id="1541536717"
+            duda_id="1541536717"
+            class="svg u_1541536717"
+            data-icon-name="wp-hospital_thin"
+          >
+            {" "}
+            <g id="1246534557" duda_id="1246534557">
+              {" "}
+              <path
+                d="M26,10v14H10v36h50V10H26z M12,26h14v4H12V26z M12,32h14v2H12V32z M12,58V36h14v22H12z M40,58v-8h6v8H40z M58,58H48V48H38
+		v10H28V36h30V58z M58,34H28v-2h30V34z M58,30H28V12h30V30z"
+                id="1615824811"
+                duda_id="1615824811"
+              ></path>
+              <polygon
+                points="42,26 44,26 44,22 48,22 48,20 44,20 44,16 42,16 42,20 38,20 38,22 42,22 	"
+                id="1333278339"
+                duda_id="1333278339"
+              ></polygon>
+            </g>
+          </svg>
           <p>Cutting-Edge Facilities</p>
         </div>
         <div className="feature-box">
