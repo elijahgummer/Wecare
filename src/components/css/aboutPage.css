@@ -62,8 +62,12 @@
 }
 /* FEATURES CSS AREA */
 .aboutPageSection .features {
-  
+  background-image: url('images/aboutFeature.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .aboutPageSection .features .feature-box {
   display: flex;
   align-items: center;
