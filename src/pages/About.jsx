@@ -43,6 +43,9 @@ function AboutPage() {
         <div className="feature-box">
           <p>Cutting-Edge Facilities</p>
         </div>
+        <div className="feature-box">
+          <p>Cutting-Edge Facilities</p>
+        </div>
       </div>
     </div>
   );
