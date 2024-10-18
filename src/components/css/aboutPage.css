@@ -36,7 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 #aboutPageSection .content h1 {
   color: #444444;
