@@ -67,9 +67,8 @@
   justify-content: center;
   flex-direction: column;
 }
-.aboutPageSection .features .feature-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.aboutPageSection .features .feature-box i {
+  color: #ffffff;
+  width: 80px;
+  height: 80px;
 }
