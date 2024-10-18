@@ -61,24 +61,26 @@
   margin-top: 15px;
 }
 /* FEATURES CSS AREA */
-.aboutPageSection .features {
-  background-image: url('images/aboutFeatures.png');
+#aboutPageSection .features {
+  background-image: url('../images/aboutFeatures.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
 }
-.aboutPageSection .features .feature-box {
+#aboutPageSection .features .feature-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-.aboutPageSection .features .feature-box i {
+#aboutPageSection .features .feature-box i {
   color: #ffffff;
   width: 80px;
   height: 80px;
 }
-.aboutPageSection .features .feature-box p {
+#aboutPageSection .features .feature-box p {
   color: #ffffff;
   font-size: 21px;
 }
