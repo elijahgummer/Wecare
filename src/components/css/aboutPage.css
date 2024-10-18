@@ -39,6 +39,9 @@
   flex-direction: row-reverse;
   width: 90%;
 }
+#aboutPageSection .image-container {
+  width: 50%;
+}
 #aboutPageSection .content h1 {
   color: #444444;
   font-size: 36px;
