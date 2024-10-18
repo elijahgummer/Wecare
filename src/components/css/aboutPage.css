@@ -32,6 +32,12 @@
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
+#aboutPageSection .info-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 #aboutPageSection .content h1 {
   color: #444444;
   font-size: 36px;
