@@ -37,6 +37,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row-reverse;
+  width: 90%;
 }
 #aboutPageSection .content h1 {
   color: #444444;
