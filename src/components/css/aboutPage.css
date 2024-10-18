@@ -42,7 +42,7 @@
 #aboutPageSection .info-con {
   
 }
-#aboutPageSection .image-container {
+#aboutPageSection .image-container .content {
   width: 50%;
   height: 100%;
 }
