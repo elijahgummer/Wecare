@@ -46,6 +46,7 @@
 #aboutPageSection .image-container img {
   width: 400px;
   height: 500px;
+  border-radius: 10px;
 }
 #aboutPageSection .content h1 {
   color: #444444;
