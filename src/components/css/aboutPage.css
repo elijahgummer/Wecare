@@ -61,6 +61,9 @@
   margin-top: 15px;
 }
 /* FEATURES CSS AREA */
+.aboutPageSection .features {
+  
+}
 .aboutPageSection .features .feature-box {
   display: flex;
   align-items: center;
