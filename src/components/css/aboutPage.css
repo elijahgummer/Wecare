@@ -43,6 +43,10 @@
   width: 50%;
   height: 100%;
 }
+#aboutPageSection .image-container img {
+  width: 400px;
+  height: 500px;
+}
 #aboutPageSection .content h1 {
   color: #444444;
   font-size: 36px;
