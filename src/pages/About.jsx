@@ -193,7 +193,7 @@ function AboutPage() {
         </div>
       </div>
       <div className="team">
-        
+        <h1>Our Staff</h1>
       </div>
     </div>
   );
