@@ -106,13 +106,6 @@
   width: 200px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-/* Hover effect for feature boxes */
-#aboutPageSection .feature-box:hover {
-  transform: translateY(-10px); /* Lift up on hover */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Deepened shadow on hover */
-}
-
 /* Styling for the icon inside each feature box */
 #aboutPageSection .feature-box svg {
   width: 50px;
