@@ -87,15 +87,6 @@
   color: #ffffff;
   font-size: 21px;
 }
-/* General styling for the features section */
-#aboutPageSection .features {
-  display: flex;
-  justify-content: space-around;
-  gap: 20px;
-  padding: 40px;
-  background-color: #2a2a2a; /* Dark background color */
-}
-
 /* Styling for each individual feature box */
 #aboutPageSection .feature-box {
   display: flex;
@@ -108,8 +99,8 @@
 }
 /* Styling for the icon inside each feature box */
 #aboutPageSection .feature-box svg {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   fill: #61dafb; /* Icon color, adjust as needed */
   margin-bottom: 15px;
 }
