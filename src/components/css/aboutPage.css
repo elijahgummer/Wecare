@@ -86,3 +86,47 @@
   color: #ffffff;
   font-size: 21px;
 }
+/* General styling for the features section */
+#aboutPageSection .features {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px;
+  background-color: #2a2a2a; /* Dark background color */
+}
+
+/* Styling for each individual feature box */
+#aboutPageSection .feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3b3b3b; /* Slightly lighter box background color */
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for feature boxes */
+#aboutPageSection .feature-box:hover {
+  transform: translateY(-10px); /* Lift up on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Deepened shadow on hover */
+}
+
+/* Styling for the icon inside each feature box */
+#aboutPageSection .feature-box svg {
+  width: 50px;
+  height: 50px;
+  fill: #61dafb; /* Icon color, adjust as needed */
+  margin-bottom: 15px;
+}
+
+/* Styling for the text inside each feature box */
+#aboutPageSection .feature-box p {
+  color: #ffffff; /* Text color */
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0;
+}
