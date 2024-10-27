@@ -70,6 +70,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  width: 100%;
 }
 #aboutPageSection .features .feature-box {
   display: flex;
