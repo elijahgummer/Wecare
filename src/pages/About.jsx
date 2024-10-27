@@ -195,7 +195,9 @@ function AboutPage() {
       <div className="team">
         <h1>Our Staff</h1>
         <div className="team-container">
-          
+            <div className="image-box">
+              
+            </div>
         </div>
       </div>
     </div>
