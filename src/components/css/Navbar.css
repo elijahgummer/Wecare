@@ -16,11 +16,13 @@
   text-align: center;
   z-index: 5;
 }
+/* NAVBAR */
 .navbar ul {
   display: flex;
   list-style: none;
   gap: 2.5rem;
   margin-right: 20px;
+  flex-direction: row; /* Ensures row layout on desktop */
 }
 .navbar ul a {
   color: #7d7d7d;
