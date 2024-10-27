@@ -192,6 +192,9 @@ function AboutPage() {
           <p>Individualized Personal Treatment</p>
         </div>
       </div>
+      <div className="team">
+        
+      </div>
     </div>
   );
 }
