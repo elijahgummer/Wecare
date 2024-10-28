@@ -146,7 +146,7 @@
 }
 #aboutPageSection .team .team-container .image-box {
   display: flex;
-  width: 120px;
+  width: 20%;
   align-items: center;
   justify-content: center;
   flex-direction: row;
