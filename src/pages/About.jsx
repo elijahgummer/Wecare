@@ -218,7 +218,7 @@ function AboutPage() {
           </div>
           <div className="image-box">
             <img className="doctor" src={doctor} alt="logo" />
-            <h1>PROF. DAN CROWNING</h1>
+            <h1>DR. MOHAMED SOOD</h1>
             <p>Clinic Manager</p>
           </div>
           <div className="image-box">
