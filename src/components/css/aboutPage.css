@@ -136,3 +136,10 @@
   font-size: 36px;
   margin: 20px;
 }
+#aboutPageSection .team .team-container {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
