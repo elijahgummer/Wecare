@@ -226,6 +226,11 @@ function AboutPage() {
             <h1>DR. LARA ANDREW</h1>
             <p>Nursing Manager</p>
           </div>
+          <div className="image-box">
+            <img className="doctor" src={doctor} alt="logo" />
+            <h1>DR. LARA ANDREW</h1>
+            <p>Nursing Manager</p>
+          </div>
         </div>
       </div>
     </div>
