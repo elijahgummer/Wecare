@@ -131,3 +131,6 @@
   margin: 0;
 }
 /* TEAM SECTION */
+#aboutPageSection .team h1 {
+  color: #444444;
+}
