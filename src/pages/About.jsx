@@ -2,7 +2,7 @@ import React from "react";
 import "../components/css/aboutPage.css"; // Assuming the CSS file is in the components/css folder
 import aboutHeader from "../components/images/aboutHeader.png"; // Adjust path as needed
 import people from "../components/images/people.png"; // Adjust path as needed
-import docter from "../components/images/docter.png"; // Adjust path as needed
+import doctor from "../components/images/doctor.png"; // Adjust path as needed
 function AboutPage() {
   return (
     <div id="aboutPageSection">
@@ -196,9 +196,9 @@ function AboutPage() {
       <div className="team">
         <h1>Our Staff</h1>
         <div className="team-container">
-            <div className="image-box">
-              
-            </div>
+          <div className="image-box">
+            <img className="doctor" src={doctor} alt="logo" />
+          </div>
         </div>
       </div>
     </div>
