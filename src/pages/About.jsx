@@ -194,7 +194,7 @@ function AboutPage() {
         </div>
       </div>
       <div className="team">
-        <h1>Our Staff</h1>
+        <h2>Our Staff</h2>
         <div className="team-container">
           <div className="image-box">
             <img className="doctor" src={doctor} alt="logo" />
