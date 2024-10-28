@@ -137,7 +137,16 @@
   margin: 20px;
 }
 #aboutPageSection .team .team-container {
+  display: flex;
   width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#aboutPageSection .team .team-container .image-box {
+  display: flex;
+  width: 120px;
   align-items: center;
   justify-content: center;
   flex-direction: row;
