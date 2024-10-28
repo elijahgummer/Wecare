@@ -3,6 +3,7 @@ import "../components/css/aboutPage.css"; // Assuming the CSS file is in the com
 import aboutHeader from "../components/images/aboutHeader.png"; // Adjust path as needed
 import people from "../components/images/people.png"; // Adjust path as needed
 import doctor from "../components/images/doctor.png"; // Adjust path as needed
+import doctor1 from "../components/images/doctor1.png"; // Adjust path as needed
 function AboutPage() {
   return (
     <div id="aboutPageSection">
@@ -202,7 +203,7 @@ function AboutPage() {
             <p>Clinic Manager</p>
           </div>
           <div className="image-box">
-            <img className="doctor" src={doctor} alt="logo" />
+            <img className="doctor" src={doctor1} alt="logo" />
             <h1>PROF. ANNA-LEE DAVIS</h1>
             <p>Chief Pediatrician</p>
           </div>
