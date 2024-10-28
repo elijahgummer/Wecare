@@ -5,6 +5,7 @@ import people from "../components/images/people.png"; // Adjust path as needed
 import doctor from "../components/images/doctor.png"; // Adjust path as needed
 import doctor1 from "../components/images/doctor1.png"; // Adjust path as needed
 import doctor2 from "../components/images/doctor2.png"; // Adjust path as needed
+import doctor3 from "../components/images/doctor3.png"; // Adjust path as needed
 function AboutPage() {
   return (
     <div id="aboutPageSection">
@@ -214,7 +215,7 @@ function AboutPage() {
             <p>Head Surgeon</p>
           </div>
           <div className="image-box">
-            <img className="doctor" src={doctor} alt="logo" />
+            <img className="doctor" src={doctor3} alt="logo" />
             <h1>DR. LISA  WHITE</h1>
             <p>Obstetrics</p>
           </div>
