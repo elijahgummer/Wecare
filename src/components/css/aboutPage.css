@@ -165,6 +165,7 @@
   height: 230px;
 }
 #aboutPageSection .team .team-container .image-box h1 {
-  width: 200px;
-  height: 230px;
+  font-size: 21px;
+  color: #444444;
+  font-weight: 700px;
 }
