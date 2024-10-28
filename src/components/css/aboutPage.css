@@ -159,6 +159,7 @@
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+  margin: 10px;
 }
 #aboutPageSection .team .team-container .image-box img {
   width: 200px;
