@@ -228,8 +228,13 @@ function AboutPage() {
           </div>
           <div className="image-box">
             <img className="doctor" src={doctor} alt="logo" />
-            <h1>DR. LARA ANDREW</h1>
-            <p>Nursing Manager</p>
+            <h1>DR. SARA TAMAN</h1>
+            <p>Geriatric Specialist</p>
+          </div>
+          <div className="image-box">
+            <img className="doctor" src={doctor} alt="logo" />
+            <h1>DR. NICK GRAVES</h1>
+            <p>Tech. Director</p>
           </div>
         </div>
       </div>
