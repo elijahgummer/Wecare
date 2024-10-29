@@ -147,6 +147,7 @@
 #aboutPageSection .team .team-container {
   display: flex;
   width: 90%;
+  margin-bottom: 100px;
   align-items: center;
   justify-content: center;
   flex-direction: row;
