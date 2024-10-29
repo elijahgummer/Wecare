@@ -8,6 +8,7 @@ import doctor2 from "../components/images/doctor2.png"; // Adjust path as needed
 import doctor3 from "../components/images/doctor3.png"; // Adjust path as needed
 import doctor4 from "../components/images/doctor4.png"; // Adjust path as needed
 import doctor5 from "../components/images/doctor5.png"; // Adjust path as needed
+import doctor6 from "../components/images/doctor6.png"; // Adjust path as needed
 function AboutPage() {
   return (
     <div id="aboutPageSection">
