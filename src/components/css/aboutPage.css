@@ -158,8 +158,7 @@
 }
 #aboutPageSection .team .team-container .image-box {
   display: flex;
-  width: 22%;
-  max-width: 230px;
+  width: 21%;
   padding: 20px;
   background-color: #ffffff;
   border-radius: 15px;
