@@ -227,7 +227,7 @@ function AboutPage() {
             <p>Pediatrician</p>
           </div>
           <div className="image-box">
-            <img className="doctor" src={doctor} alt="logo" />
+            <img className="doctor" src={doctor5} alt="logo" />
             <h1>DR. LARA ANDREW</h1>
             <p>Nursing Manager</p>
           </div>
