@@ -233,12 +233,12 @@ function AboutPage() {
             <p>Nursing Manager</p>
           </div>
           <div className="image-box">
-            <img className="doctor" src={doctor} alt="logo" />
+            <img className="doctor" src={doctor6} alt="logo" />
             <h1>DR. SARA TAMAN</h1>
             <p>Geriatric Specialist</p>
           </div>
           <div className="image-box">
-            <img className="doctor" src={doctor} alt="logo" />
+            <img className="doctor" src={doctor7} alt="logo" />
             <h1>DR. NICK GRAVES</h1>
             <p>Tech. Director</p>
           </div>
