@@ -72,9 +72,11 @@
   background-repeat: no-repeat;
   width: 100%;
   height: 400px;
-  position: relative; /* Required for positioning the overlay */
-  overflow: hidden; /* Ensures the overlay stays within bounds */
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed; /* Fixes the background for parallax effect */
 }
+
 #aboutPageSection .features::before {
   content: '';
   position: absolute;
@@ -82,30 +84,34 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Black overlay with 50% opacity */
-  z-index: 1; /* Places the overlay above the background image */
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  z-index: 1;
 }
-/* Ensures that content inside `.features` is above the overlay */
+
 #aboutPageSection .features > * {
   position: relative;
   z-index: 2;
 }
+
+/* Styling for feature boxes */
 #aboutPageSection .features .feature-box {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
+
 #aboutPageSection .features .feature-box i {
   color: #ffffff;
   width: 20px;
   height: 20px;
 }
+
 #aboutPageSection .features .feature-box p {
   color: #ffffff;
   font-size: 21px;
 }
-/* Styling for each individual feature box */
+
 #aboutPageSection .feature-box {
   display: flex;
   flex-direction: column;
@@ -115,21 +121,22 @@
   width: 200px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-/* Styling for the icon inside each feature box */
+
 #aboutPageSection .feature-box svg {
   width: 80px;
   height: 80px;
-  fill: #ffffff; /* Icon color, adjust as needed */
+  fill: #ffffff;
   margin-bottom: 15px;
 }
-/* Styling for the text inside each feature box */
+
 #aboutPageSection .feature-box p {
-  color: #ffffff; /* Text color */
+  color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   text-align: center;
   margin: 0;
 }
+
 /* TEAM SECTION */
 #aboutPageSection .team h2 {
   color: #444444;
