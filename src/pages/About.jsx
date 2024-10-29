@@ -220,7 +220,7 @@ function AboutPage() {
           </div>
           <div className="image-box">
             <img className="doctor" src={doctor3} alt="logo" />
-            <h1>DR. LISA  WHITE</h1>
+            <h1>DR. LISA WHITE</h1>
             <p>Obstetrics</p>
           </div>
           <div className="image-box">
