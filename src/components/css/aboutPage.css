@@ -134,7 +134,7 @@
 #aboutPageSection .team h2 {
   color: #444444;
   font-size: 36px;
-  margin: 20px;
+  margin: 100px 0px 40px 0px;
 }
 #aboutPageSection .team {
   display: flex;
