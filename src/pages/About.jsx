@@ -245,9 +245,9 @@ function AboutPage() {
           </div>
         </div>
       </div>
-      <div className="reviews">
+      <div className="aboutReviews">
         <div className="container">
-          
+
         </div>
       </div>
     </div>
