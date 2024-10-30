@@ -239,5 +239,12 @@
 }
 /* REVIEWS AREA CSS CODE */
 .aboutReviews .container{
-
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, #aaaaaad9 1px, transparent 1px);
+    background-size: 20px 20px;
+    padding: 20px;
+    margin-top: 100px;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
