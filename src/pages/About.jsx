@@ -245,6 +245,11 @@ function AboutPage() {
           </div>
         </div>
       </div>
+      <div className="reviews">
+        <div className="container">
+          
+        </div>
+      </div>
     </div>
   );
 }
