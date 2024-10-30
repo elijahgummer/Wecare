@@ -5,7 +5,7 @@
   justify-content: center;
 }
 #aboutPageSection .hero-con {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 .hero-con {
   position: relative;
@@ -66,7 +66,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  background-image: url('../images/aboutFeatures.jpg');
+  background-image: url("../images/aboutFeatures.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -77,7 +77,7 @@
   background-attachment: fixed; /* Fixes the background for parallax effect */
 }
 #aboutPageSection .features::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -166,7 +166,8 @@
   margin: 10px;
   overflow: hidden;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+  transition: transform 0.4s ease, box-shadow 0.4s ease,
+    background-color 0.4s ease;
 }
 #aboutPageSection .team .team-container .image-box:hover {
   transform: translateY(-10px);
@@ -199,7 +200,7 @@
   font-size: 16px;
   color: #666666;
   font-weight: 300;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 5px 0;
   line-height: 1.6;
   opacity: 0;
@@ -238,13 +239,13 @@
   }
 }
 /* REVIEWS AREA CSS CODE */
-.aboutReviews .container{
+.aboutReviews .container {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: radial-gradient(circle, #aaaaaad9 1px, transparent 1px);
-    background-size: 20px 20px;
-    padding: 20px;
-    margin-top: 100px;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle, #aaaaaad9 1px, transparent 1px);
+  background-size: 20px 20px;
+  padding: 20px;
+  margin-top: 100px;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
