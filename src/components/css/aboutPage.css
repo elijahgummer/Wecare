@@ -239,6 +239,9 @@
   }
 }
 /* REVIEWS AREA CSS CODE */
+.aboutReviews {
+  width: 100%;
+}
 .aboutReviews .container {
   display: flex;
   align-items: center;
