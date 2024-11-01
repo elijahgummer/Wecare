@@ -6,7 +6,7 @@ function ContactPage() {
     <div id="contactPage">
       <div className="hero-con">
         <img className="servicesHeader" src={servicesHeader} alt="logo" />
-        <h1>SERVICES</h1>
+        <h1>CONTACT</h1>
       </div>
     </div>
   );
