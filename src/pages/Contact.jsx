@@ -1,7 +1,6 @@
 import React from "react";
 import servicesHeader from "../components/images/servicesPageHeader.png"; // Adjust path as needed
 import "../components/css/contactPage.css";
-import { PrimButton } from "../components/Buttons";
 function ContactPage() {
   return (
     <div id="contactPage">
