@@ -68,4 +68,4 @@ function ContactPage() {
     </div>
   );
 }
-export default ServicesPage;
+export default ContactPage;
