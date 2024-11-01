@@ -4,7 +4,7 @@ import "../components/css/contactPage.css";
 import { PrimButton } from "../components/Buttons";
 function ContactPage() {
   return (
-    <div id="servicePage">
+    <div id="contactPage">
       <div className="hero-con">
         <img className="servicesHeader" src={servicesHeader} alt="logo" />
         <h1>SERVICES</h1>
