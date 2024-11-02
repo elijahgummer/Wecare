@@ -8,6 +8,7 @@ function ContactPage() {
         <img className="contactHeader" src={contactHeader} alt="logo" />
         <h1>CONTACT</h1>
       </div>
+      <h2>Send Us A Message</h2>
     </div>
   );
 }
