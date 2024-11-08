@@ -60,5 +60,4 @@ function Navbar({ setCurrentPage }) {
     </nav>
   );
 }
-
 export default Navbar;
