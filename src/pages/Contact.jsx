@@ -9,6 +9,7 @@ function ContactPage() {
         <h1>CONTACT</h1>
       </div>
       <h2>Send Us A Message</h2>
+      <p>Have a question? We Care Medical Clinic is here to help. Send us a message and we’ll be in touch. </p>
     </div>
   );
 }
