@@ -36,6 +36,13 @@
     font-weight: 700;
     margin: 5px 20px;
   }
+  #contactPage p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #444444;
+    width: 30%;
+    margin: 30px;
+  }
   .contactHeader {
     width: 100%;
     height: auto;
