@@ -7,7 +7,7 @@ import CallToAction from './components/callToAction';
 import Footer from './components/Footer';
 import ServicesPage from './pages/Services';
 import AboutPage from './pages/About'; // Updated import to match the correct file name
-import AboutPage from './pages/About'; 
+import ContactPage from './pages/Contact'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 
