@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
+import Contact from './components/Contact';
 import CallToAction from './components/callToAction';
 import Footer from './components/Footer';
 import ServicesPage from './pages/Services';
@@ -20,10 +21,6 @@ function HomePage() {
       <CallToAction />
     </div>
   );
-}
-
-function ContactPage() {
-  return <div><h1>Contact Us</h1></div>;
 }
 
 function NotFoundPage() {
