@@ -93,16 +93,19 @@
   display: block;
   margin-bottom: 8px;
   font-weight: 500;
+  text-align: left; /* Ensure labels are aligned left */
 }
 
+/* Form Row for Inputs */
 .contact-form-row {
   display: flex;
+  flex-wrap: wrap; /* Allow wrapping for mobile responsiveness */
   gap: 20px;
   margin-bottom: 20px;
 }
 
 .contact-form .half-width {
-  width: 50%;
+  width: 50%; /* For half-width layout */
 }
 
 .contact-form input[type="text"],
@@ -132,6 +135,14 @@
   max-height: 300px;
 }
 
+/* Layout for Phone and Email Fields */
+.contact-form-row .half-width {
+  width: 48%; /* Adjust width to fit both fields next to each other */
+}
+
+.contact-form-row .half-width input {
+  width: 100%; /* Ensure inputs take full width of the half-width container */
+}
 
 /* Hover Effects */
 .contact-form input[type="text"]:hover,
