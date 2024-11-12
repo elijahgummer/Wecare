@@ -11,7 +11,6 @@ function ContactPage() {
       </div>
       <h2>Send<span> Us a Message</span></h2>
       <p>Have a question? We Care Medical Clinic is here to help. Send us a message and we’ll be in touch.</p>
-      
       <div className="contact-form">
         <h2>Contact Us</h2>
         <form>
