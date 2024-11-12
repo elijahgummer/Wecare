@@ -5,6 +5,7 @@
   justify-content: center;
   background-color: #f4f7fa;
   padding: 60px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .hero-con {
@@ -30,8 +31,9 @@
 #contactPage h2 {
   font-size: 36px;
   font-weight: 700;
-  color: #444444;
+  color: #333333;
   margin: 5px;
+  text-align: center;
 }
 
 #contactPage h2 span {
@@ -41,12 +43,12 @@
 #contactPage p {
   font-size: 18px;
   font-weight: 400;
-  color: #444444;
-  width: 60%;
-  margin: 30px;
+  color: #666666;
+  width: 70%;
+  margin: 30px auto;
   text-align: center;
   line-height: 1.6;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 800px;
 }
 
 .contactHeader {
@@ -60,17 +62,18 @@
 /* Contact Form Container */
 .contact-form {
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   padding: 40px;
-  margin-top: 20px;
-  transition: transform 0.3s ease;
+  margin-top: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .contact-form:hover {
   transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
 }
 
 /* Contact Form Heading */
@@ -88,6 +91,7 @@
   color: #444444;
   display: block;
   margin-bottom: 8px;
+  font-weight: 500;
 }
 
 .contact-form-row {
@@ -110,6 +114,7 @@
   font-size: 16px;
   color: #333333;
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
 }
 
 .contact-form input[type="text"]:focus,
@@ -136,10 +141,12 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 20px;
 }
 
 .contact-form button:hover {
   background-color: #447bcc;
   transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(85, 153, 249, 0.3);
 }
