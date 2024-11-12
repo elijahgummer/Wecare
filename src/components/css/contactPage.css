@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f4f7fa;
-  padding: 60px 20px;
+  background-color: #f9f9fb;
+  padding: 80px 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -20,19 +20,19 @@
 
 .hero-con h1 {
   position: absolute;
-  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.7);
+  text-shadow: 4px 4px 12px rgba(0, 0, 0, 0.6);
   color: #ffffff;
-  font-size: 4.5rem;
-  font-weight: 800;
+  font-size: 4.8rem;
+  font-weight: 900;
   z-index: 1;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 #contactPage h2 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 40px;
+  font-weight: 800;
   color: #333333;
-  margin: 5px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -43,11 +43,11 @@
 #contactPage p {
   font-size: 18px;
   font-weight: 400;
-  color: #666666;
+  color: #555555;
   width: 70%;
   margin: 30px auto;
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.7;
   max-width: 800px;
 }
 
@@ -56,18 +56,19 @@
   height: auto;
   object-fit: cover;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
 }
 
 /* Contact Form Container */
 .contact-form {
   width: 100%;
-  max-width: 650px;
+  max-width: 700px;
   background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
   padding: 40px;
-  margin-top: 30px;
+  margin-top: 40px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -128,6 +129,7 @@
 .contact-form textarea {
   resize: vertical;
   min-height: 120px;
+  max-height: 300px;
 }
 
 /* Submit Button Style */
@@ -143,10 +145,25 @@
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
   margin-top: 20px;
+  text-transform: uppercase;
 }
 
 .contact-form button:hover {
   background-color: #447bcc;
-  transform: scale(1.03);
-  box-shadow: 0 5px 15px rgba(85, 153, 249, 0.3);
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(85, 153, 249, 0.3);
+}
+
+/* Hover Effects */
+.contact-form input[type="text"]:hover,
+.contact-form input[type="email"]:hover,
+.contact-form textarea:hover,
+.contact-form button:hover {
+  background-color: #f3f7fb;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form textarea:focus {
+  background-color: #f5faff;
 }
