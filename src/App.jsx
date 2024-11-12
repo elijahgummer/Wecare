@@ -7,7 +7,7 @@ import CallToAction from './components/callToAction';
 import Footer from './components/Footer';
 import ServicesPage from './pages/Services';
 import AboutPage from './pages/About'; // Updated import to match the correct file name
-import ContactPage from './pages/Contact';
+import ContactPage from './pages/Contact'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
 
@@ -22,6 +22,7 @@ function HomePage() {
     </div>
   );
 }
+
 function NotFoundPage() {
   return <div><h1>404 - Page Not Found</h1></div>;
 }
