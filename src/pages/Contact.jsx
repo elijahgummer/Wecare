@@ -1,7 +1,7 @@
 import React from "react";
 import "../components/css/contactPage.css";
 import contactHeader from '../components/images/contactHeader.png'; // Adjust path as needed
-
+import { PrimButton } from "../components/Buttons";
 function ContactPage() {
   return (
     <div id="contactPage">
@@ -28,7 +28,7 @@ function ContactPage() {
           <input type="email" id="email" name="email" required />
           <label htmlFor="message">Message</label>
           <textarea id="message" name="message" required></textarea>
-          <button type="submit">Send Message</button>
+          <PrimButton>Send Message</PrimButton>
         </form>
       </div>
     </div>

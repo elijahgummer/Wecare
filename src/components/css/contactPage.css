@@ -132,27 +132,6 @@
   max-height: 300px;
 }
 
-/* Submit Button Style */
-.contact-form button {
-  width: 100%;
-  padding: 14px;
-  background-color: #5599f9;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 600;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
-  margin-top: 20px;
-  text-transform: uppercase;
-}
-
-.contact-form button:hover {
-  background-color: #447bcc;
-  transform: scale(1.05);
-  box-shadow: 0 10px 30px rgba(85, 153, 249, 0.3);
-}
 
 /* Hover Effects */
 .contact-form input[type="text"]:hover,
