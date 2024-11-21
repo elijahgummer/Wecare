@@ -11,7 +11,6 @@ function ContactPage() {
       </div>
       <h2>Send<span> Us a Message</span></h2>
       <p>Have a question? We Care Medical Clinic is here to help. Send us a message and we’ll be in touch.</p>
-      
       <div className="contact-form"> {/* Use className instead of class */}
         <form action="#">
           <label htmlFor="name">Name</label> {/* Use htmlFor instead of for in JSX */}
