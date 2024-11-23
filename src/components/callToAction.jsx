@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css"; // Slick theme CSS
 import "./css/CTA.css";
 import pills from "./images/pills1.png";
 import pills2 from "./images/pills2.png";
-import pills3 from "./images/pills3.png";
 import { PrimButton } from "./Buttons";
 function CallToAction() {
   const sliderSettings = {
