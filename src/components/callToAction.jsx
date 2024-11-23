@@ -7,7 +7,6 @@ import pills1 from "./images/pills1.png";
 import pills2 from "./images/pills2.png";
 import pills3 from "./images/pills3.png";
 import { PrimButton } from "./Buttons";
-
 function CallToAction() {
   const sliderSettings = {
     dots: true, // Enable dots for navigation
@@ -18,7 +17,6 @@ function CallToAction() {
     autoplay: true, // Auto-play feature
     autoplaySpeed: 3000, // Delay between slides
   };
-
   return (
     <div id="cta">
       <div className="container">
@@ -47,5 +45,4 @@ function CallToAction() {
     </div>
   );
 }
-
 export default CallToAction;
