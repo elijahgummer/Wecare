@@ -23,7 +23,7 @@ function CallToAction() {
         <div className="image-container">
           <Slider {...sliderSettings}>
             <div>
-              <img src={pills1} alt="Pills 1" />
+              <img src={pills} alt="Pills 1" />
             </div>
             <div>
               <img src={pills2} alt="Pills 2" />
