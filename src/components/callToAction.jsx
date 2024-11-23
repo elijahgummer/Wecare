@@ -28,9 +28,6 @@ function CallToAction() {
             <div>
               <img src={pills2} alt="Pills 2" />
             </div>
-            <div>
-              <img src={pills3} alt="Pills 3" />
-            </div>
           </Slider>
         </div>
         <div className="content">
