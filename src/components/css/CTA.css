@@ -1,57 +1,108 @@
+/* General CTA Styles */
 #cta .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: radial-gradient(circle, #aaaaaad9 1px, transparent 1px);
-    background-size: 20px 20px;
-    padding: 20px;
-    margin-top: 100px;
-    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: radial-gradient(circle, #aaaaaad9 1px, transparent 1px);
+  background-size: 20px 20px;
+  padding: 20px;
+  margin-top: 100px;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+#cta .image-container {
+  position: relative;
+  flex: 1;
+  max-width: 500px;
+  margin-right: 20px;
+  overflow: hidden; /* Ensure arrows and images stay contained */
+  border-radius: 10px;
+}
+
+#cta .image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Custom Arrow Styles */
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 2;
+  opacity: 0; /* Hidden by default */
+}
+
+.custom-prev {
+  left: 10px; /* Position on the left */
+}
+
+.custom-next {
+  right: 10px; /* Position on the right */
+}
+
+/* Show arrows on hover */
+#cta .image-container:hover .custom-arrow {
+  opacity: 1; /* Make arrows visible */
+  transform: translateY(-50%) scale(1.1); /* Slight zoom on hover */
+}
+
+/* Add hover effects */
+.custom-arrow:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+}
+
+/* Content Styles */
+#cta .content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center; /* Center content for smaller screens */
+}
+
+#cta h1 {
+  font-size: 33px;
+  color: #444444;
+  font-weight: 700;
+}
+
+#cta p {
+  margin: 20px 0px;
+  width: 50%;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #414141;
+  font-weight: 100;
+}
+
+#cta .primButton {
+  width: 220px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #cta .container {
+    flex-direction: column;
+    text-align: center;
   }
   #cta .image-container {
-    flex: 1; /* Adjust slider to take up available space */
-    max-width: 500px; /* Limit max width */
-    margin-right: 20px;
-  }
-  #cta .image-container img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px; /* Add rounded corners */
-  }
-  #cta .content {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: column;
-    text-align: center; /* Center content for smaller screens */
-  }
-  #cta h1 {
-    font-size: 33px;
-    color: #444444;
-    font-weight: 700;
+    margin-bottom: 20px;
   }
   #cta p {
-    margin: 20px 0px;
-    width: 50%;
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #414141;
-    font-weight: 100;
+    width: 80%;
   }
-  #cta .primButton {
-    width: 220px;
-  }
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    #cta .container {
-      flex-direction: column;
-      text-align: center;
-    }
-    #cta .image-container {
-      margin-bottom: 20px; /* Add space between slider and content */
-    }
-    #cta p {
-      width: 80%;
-    }
-  }
+}
