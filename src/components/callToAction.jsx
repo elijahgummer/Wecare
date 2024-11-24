@@ -6,7 +6,6 @@ import "./css/CTA.css";
 import pills1 from "./images/pills.png";
 import pills2 from "./images/pills2.png";
 import { PrimButton } from "./Buttons";
-
 // Custom Arrow Components
 function CustomPrevArrow(props) {
   const { onClick } = props;
@@ -16,7 +15,6 @@ function CustomPrevArrow(props) {
     </div>
   );
 }
-
 function CustomNextArrow(props) {
   const { onClick } = props;
   return (
@@ -25,7 +23,6 @@ function CustomNextArrow(props) {
     </div>
   );
 }
-
 function CallToAction() {
   const sliderSettings = {
     infinite: true,
@@ -37,7 +34,6 @@ function CallToAction() {
     prevArrow: <CustomPrevArrow />, // Custom previous arrow
     nextArrow: <CustomNextArrow />, // Custom next arrow
   };
-
   return (
     <div id="cta">
       <div className="container">
@@ -66,5 +62,4 @@ function CallToAction() {
     </div>
   );
 }
-
 export default CallToAction;
