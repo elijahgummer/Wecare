@@ -9,7 +9,6 @@
   margin-top: 100px;
   flex-wrap: wrap; /* Allow items to wrap on smaller screens */
 }
-
 #cta .image-container {
   position: relative;
   flex: 1;
@@ -18,13 +17,11 @@
   overflow: hidden; /* Ensure arrows and images stay contained */
   border-radius: 10px;
 }
-
 #cta .image-container img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
-
 /* Custom Arrow Styles */
 .custom-arrow {
   position: absolute;
@@ -43,27 +40,22 @@
   z-index: 2;
   opacity: 0; /* Hidden by default */
 }
-
 .custom-prev {
   left: 10px; /* Position on the left */
 }
-
 .custom-next {
   right: 10px; /* Position on the right */
 }
-
 /* Show arrows on hover */
 #cta .image-container:hover .custom-arrow {
   opacity: 1; /* Make arrows visible */
   transform: translateY(-50%) scale(1.1); /* Slight zoom on hover */
 }
-
 /* Add hover effects */
 .custom-arrow:hover {
   background-color: rgba(255, 255, 255, 0.9);
   color: #000;
 }
-
 /* Content Styles */
 #cta .content {
   flex: 1;
@@ -73,13 +65,11 @@
   flex-direction: column;
   text-align: center; /* Center content for smaller screens */
 }
-
 #cta h1 {
   font-size: 33px;
   color: #444444;
   font-weight: 700;
 }
-
 #cta p {
   margin: 20px 0px;
   width: 50%;
@@ -88,11 +78,9 @@
   color: #414141;
   font-weight: 100;
 }
-
 #cta .primButton {
   width: 220px;
 }
-
 /* Responsive Styles */
 @media (max-width: 768px) {
   #cta .container {
