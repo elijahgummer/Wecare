@@ -3,9 +3,9 @@ import Slider from "react-slick"; // Import the react-slick carousel
 import "slick-carousel/slick/slick.css"; // Slick CSS
 import "slick-carousel/slick/slick-theme.css"; // Slick theme CSS
 import "./css/CTA.css";
-import pills1 from "./images/pills1.png";
+import pills1 from "./images/pills.png";
 import pills2 from "./images/pills2.png";
-import pills3 from "./images/pills3.png";
+
 import { PrimButton } from "./Buttons";
 
 // Custom Arrow Components
