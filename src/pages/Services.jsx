@@ -58,16 +58,26 @@ function ServicesPage() {
         </div>
       </div>
       <div id="cta">
-            <div className="container">
-                <div className="image-container">
-                    <img src={pills} alt="pills" />
-                </div>
-                <div className="content">
-                    <h1>Public Pharmacy</h1>
-                    <p>Managing your medications at We Care Medical Clinic is simple, from start to finish.                     </p>
-                    <PrimButton>LEARN MORE</PrimButton>
-                </div>
+      <div className="container">
+        <div className="image-container">
+          <Slider {...sliderSettings}>
+            <div>
+              <img src={pills1} alt="Pills 1" />
             </div>
+            <div>
+              <img src={pills2} alt="Pills 2" />
+            </div>
+          </Slider>
+        </div>
+        <div className="content">
+          <h1>Public Pharmacy</h1>
+          <p>
+            Managing your medications at We Care Medical Clinic is simple, from
+            start to finish.
+          </p>
+          <PrimButton>LEARN MORE</PrimButton>
+        </div>
+      </div>
         </div>
     </div>
   );
