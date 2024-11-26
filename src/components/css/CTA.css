@@ -24,7 +24,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  margin-left: 20px; /* Add space between image and content */
+  margin-left: 60px; /* Add space between image and content */
 }
 #cta .image-container img {
   width: 100%;
