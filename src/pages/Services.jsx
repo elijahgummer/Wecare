@@ -6,7 +6,6 @@ import obstetrics from "../components/images/obstetrics.png";
 import pediatrics from "../components/images/pediatrics.png";
 import seniorcare from "../components/images/seniorcare.png";
 import CallToAction from "../components/callToAction";
-
 function ServicesPage() {
   return (
     <div id="servicePage">
@@ -21,7 +20,6 @@ function ServicesPage() {
         dedicated to this goal. We offer holistic solutions to meet all of your
         health needs.
       </p>
-
       {/* Pediatrics Card */}
       <div className="card-container">
         <img src={pediatrics} alt="pediatrics" />
