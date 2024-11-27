@@ -1,11 +1,12 @@
 import React from "react";
+import Slider from "react-slick"; // Import the react-slick carousel
 import servicesHeader from "../components/images/servicesPageHeader.png"; // Adjust path as needed
 import "../components/css/servicesPage.css";
 import obstetrics from "../components/images/obstetrics.png";
 import pediatrics from "../components/images/pediatrics.png";
 import seniorcare from "../components/images/seniorcare.png";
-import pills from '../components/images/pills.png'
-import { PrimButton } from "../components/Buttons";
+import CallToAction from "../components/callToAction";
+
 function ServicesPage() {
   return (
     <div id="servicePage">
@@ -57,29 +58,10 @@ function ServicesPage() {
           </p>
         </div>
       </div>
-      <div id="cta">
-      <div className="container">
-        <div className="image-container">
-          <Slider {...sliderSettings}>
-            <div>
-              <img src={pills1} alt="Pills 1" />
-            </div>
-            <div>
-              <img src={pills2} alt="Pills 2" />
-            </div>
-          </Slider>
-        </div>
-        <div className="content">
-          <h1>Public Pharmacy</h1>
-          <p>
-            Managing your medications at We Care Medical Clinic is simple, from
-            start to finish.
-          </p>
-          <PrimButton>LEARN MORE</PrimButton>
-        </div>
-      </div>
-        </div>
-    </div>
+
+      {/* Call to Action */}
+      <CallToAction />
+    </div> // Close the parent div
   );
 }
 
