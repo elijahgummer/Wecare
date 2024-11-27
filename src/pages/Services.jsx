@@ -33,7 +33,6 @@ function ServicesPage() {
           </p>
         </div>
       </div>
-
       {/* Obstetrics Card */}
       <div className="card-container ob">
         <img src={obstetrics} alt="obstetrics" />
@@ -45,7 +44,6 @@ function ServicesPage() {
           </p>
         </div>
       </div>
-
       {/* Senior Care Card */}
       <div className="card-container">
         <img src={seniorcare} alt="senior care" />
@@ -56,11 +54,9 @@ function ServicesPage() {
           </p>
         </div>
       </div>
-
       {/* Call to Action */}
       <CallToAction />
     </div> // Close the parent div
   );
 }
-
 export default ServicesPage;
