@@ -84,13 +84,23 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   #cta .container {
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column; /* Stack content vertically */
+    text-align: center; /* Center-align text */
+    gap: 30px; /* Add space between stacked items */
+  }
+  #cta .content {
+    align-items: center; /* Center-align content */
+    text-align: center; /* Center-align text */
+    margin-right: 0; /* Reset margin */
   }
   #cta .image-container {
-    margin-bottom: 20px;
+    margin: 0; /* Remove margin */
+    max-width: 100%; /* Ensure image takes up full width */
+  }
+  #cta h1 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
   }
   #cta p {
-    width: 80%;
+    font-size: 0.9rem; /* Adjust paragraph size */
   }
 }
